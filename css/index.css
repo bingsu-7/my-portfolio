@@ -1,0 +1,98 @@
+/* main img */
+.main { clear: both; height: 63vh; background-image: url("../img/main_393_499.png"); background-size: cover; background-position: center; background-repeat: no-repeat; } 
+.main2 { height: 63vh; background-image: url("../img/main2_393_499.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; } 
+.swiper-pagination-bullet { width: 0.7rem; /* 불릿 크기 변경 */
+ height: 0.7rem; background-color: var(--white); /* 불릿 색상 변경 */
+ opacity: 0.5; } 
+.swiper-pagination-bullet-active { opacity: 1; /* 활성화된 불릿 투명도 변경 */ } 
+
+/* 본문 */
+.container { margin: 5% 0; } 
+
+.new-things > li:nth-of-type(2n+1) { margin-right: 6%; } 
+.best-things > li:nth-of-type(2n+1) { margin-right: 6%; } 
+
+.new, .best { text-decoration: underline; text-align: center; } 
+.new, .best { margin: 10% 0;}
+
+.product { float: left; width: 47%; height: 20%; position: relative; margin-bottom: 2%; } 
+p { font-weight: 400; } 
+
+.product > img { max-width: 100%; height: auto; display: block; padding-bottom: 2%; } 
+
+.product .like { width: 1.2rem; position: absolute; right: 3%; top: 2%; } 
+
+.regular-price { text-decoration-line: line-through; color: var(--gray-2); font-size: 0.9rem; } 
+.discount { border: 1px solid var(--beige); background-color: var(--beige); color: var(--red); margin: 0 auto; width: 20%; text-align: center; } 
+.item-name { text-align: center; margin-bottom: 2%; } 
+
+.brand-message { text-align: center; padding: 13% 0; margin: 0; font-size: 1rem; } 
+.brand-message > .primary-btn { margin-top: 0.3rem; font-weight: 500; } 
+
+.popup-store { background-image: url("../img/popupstore_banner_1920_1280.jpg"); width: 100%; height: 34vh; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; } 
+.popup-store > .primary-btn { width: 6rem; position: absolute; left: 50%; top: 55%; transform: translateX(-50%); border-radius: 3rem; padding: 0; width: 4.3rem; } 
+/* TODO: 태블릿 */
+@media screen and (min-width: 768px){
+ .fab, .fab2 { right: 5%; } 
+.fab2 { bottom: 35.5%; } 
+.fab { bottom: 40%; } 
+/* 머리말 */
+.top-menu { padding: 0 5.5%; font-size: 1.3rem; height: 2rem; } 
+.close { width: 1rem; height: 1rem; } 
+.main { background-image: url(../img/ipad_swiper1_768_624.png);height: 70vh;} 
+.main2 { background-image: url(../img/ipad_swiper2_768_624.png);height: 70vh;} 
+.gnb { height: 7vh; justify-content: space-between; } 
+.logo { font-size: 2rem; flex-grow: 0; }
+
+.menu { padding-right: 1.4rem; width: 14rem; } 
+.item > img { width: 2rem; } 
+.menu .pright { padding-right: 6px; } 
+.pc-menu-wrapper { display: flex; width: 14rem; }
+#drop-down li {padding: 1.5rem 0 0 2rem; }
+#drop-down h3 {font-size: 1.7rem;}
+#menu div, #menu2 div {font-size: 1.3rem;}
+
+/* 본문 */
+.container { padding: 5%; }
+.product { width: 30%; height: 23%; margin-bottom: 1%; }
+.new { margin: 0 0 10% 0;}
+.brand-message { font-size: 1.7rem; } 
+.brand-message > .primary-btn { font-size: 1.3rem; } 
+.popup-store > .primary-btn { width: 7rem; height: 2rem; font-size: 1.3rem; } 
+
+/* FIXME : 모바일 마진 0으로 설정 */
+.new-things > li:nth-of-type(2n+1) { margin-right: 0; } 
+.best-things > li:nth-of-type(2n+1) { margin-right: 0; } 
+
+.new-things > li:nth-of-type(3n+2) { margin: 0 5%; } 
+.best-things > li:nth-of-type(3n+2) { margin: 0 5%; } 
+
+.popup-store { height: 47vh; } 
+/* 푸터 */
+.olive-hr { width: 90%; margin: 8rem auto 0 auto; } 
+footer { padding-bottom: 0; } 
+.footer-left {  float: left;} 
+.footer-right { float: right;} 
+.home { margin-top: 2rem; } 
+.about, .user-guide { text-align: right; float: none; width: auto;} 
+.user-guide { margin-top: 2.2rem; } 
+ }
+
+/* TODO: pc */
+@media screen and (min-width: 1280px){
+ #page { width: 60%; } 
+.fab, .fab2 { right: 23%; } .fab2 { bottom: 46%; } .fab { bottom: 52%; } 
+
+.fixed { position: fixed; right: 19%; top: 0; width: 62%; } 
+#drop-down { left: 20%; width: 40%; }
+#drop-down li {padding: 1rem 0 0 1rem; }
+#drop-down h3 {font-size: 1.2rem;}
+#menu div, #menu2 div {font-size: 1rem;}
+.about-login, #community { margin-top: 1rem; } 
+ 
+.main { background-image: url(../img/imac_swiper1_814_624.png);height: 90vh;} 
+.main2 { background-image: url(../img/imac_swiper2_814_624.png);height: 90vh;} 
+/* 본문 */
+.popup-store { height: 67vh; } 
+ }
+

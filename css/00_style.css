@@ -1,0 +1,33 @@
+/* 00_style.css */
+/* TODO: 여기는 공통 css 입니다. */
+/* 웹폰트: 영문(ROBOTO), 한글(PRETENDARD) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"); /* TODO: 피그마에서 제가 색상팔레트-> css 뽑기 */
+:root { /* Color styles */--white: rgba(255, 255, 255, 1); --gray-1: rgba(243, 243, 243, 1); --gray-2: rgba(218, 218, 218, 1); --gray-3: rgba(181, 181, 181, 1); --gray-4: rgba(114, 114, 114, 1); --gray-5: rgba(58, 58, 58, 1); --gray-6: rgba(35, 35, 35, 1); --gray-7: rgba(19, 19, 19, 1); --black: rgba(0, 0, 0, 1); --light-olive: rgba(132, 180, 40, 1); --beige: rgba(238, 230, 222, 1); --red: rgba(255, 0, 0, 1); --blue: rgba(0, 103, 163, 1); } 
+
+/* 공통디자인: 마진/패딩 0 */
+* { margin: 0; padding: 0; box-sizing: border-box; } 
+/* body: 웹폰트 */
+body { font-family: "Pretendard", "Roboto", sans-serif; } 
+li { list-style-type: none; } 
+a { text-decoration: none; color: var(--black); } 
+
+/* TODO : 커스텀 버튼 */
+.primary-btn { background-color: var(--white); color: var(--black); font-size: 0.9rem; border: 1px solid var(--light-olive); padding: 0.2rem 0.7rem;} 
+
+.primary-btn:active { background-color: var(--light-olive); color: var(--white); } 
+.clear { clear: both; } 
+
+.olive-hr { border: none; /* 기본 선 제거 */
+    height: 2px; /* 선의 두께 설정 */
+    background-color: var(--light-olive); 
+    width: 100%;
+    margin: 0 0 0.5rem 0; } 
+
+
+
+
+
+
+
+

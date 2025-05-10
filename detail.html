@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MILOSOME</title>
+    <!-- TODO css 5개 -->
+    <!-- TODO : 공통 css -->
+    <link rel="stylesheet" href="./css/00_style.css" />
+    <!-- TODO : 머리말+꼬리말 css -->
+    <link rel="stylesheet" href="./css/00_common.css" />
+    <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon" />
+    <!-- TODO: 본문 css -->
+    <link rel="stylesheet" href="./css/detail.css" />
+    <!-- TODO : 1) Swiper js(캐러셀, 이미지 회전) css 넣기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div id="page">
+      <!-- fab -->
+      <div class="fab">
+        <a href="#up"><img src="./icon/fab_up7px.png" alt="위로 이동" /></a>
+      </div>
+      <div class="fab2">
+        <a href="#down"
+          ><img src="./icon/fab_down7px.png" alt="아래로 이동"
+        /></a>
+      </div>
+      <!-- 머리말 -->
+      <header class="top-menu" id="up">
+        <span>&nbsp;&nbsp;</span
+        ><span class="app-down">app download <b>10% </b>coupon</span
+        ><span
+          ><img class="close" src="./icon/close_white7px.png" alt="닫기"
+        /></span>
+      </header>
+      <nav class="gnb">
+        <div class="pc-menu-wrapper">
+          <ul class="pc-menu">
+            <li id="shop">
+              Shop
+              <ul id="shop-menu">
+                <li><h4>Best</h4></li>
+                <li><h4>New</h4></li>
+                <li class="sale"><h4>Sale</h4></li>
+                <li><h4>All</h4></li>
+                <li><h4>Outer</h4></li>
+                <li><h4>Top</h4></li>
+                <li><h4>Bottom</h4></li>
+                <li><h4>Dress</h4></li>
+                <li><h4>Acc</h4></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="pc-menu">
+            <li id="commu">
+              Community
+              <ul id="commu-menu">
+                <li><h4>Notice</h4></li>
+                <li><h4>FAQ</h4></li>
+                <li><h4>Q&A</h4></li>
+                <li><h4>Review</h4></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="logo">
+          <h3><a href="./index.html">MILOSOME</a></h3>
+        </div>
+        <ul class="menu">
+          <li class="item pright">
+            <img src="./icon/search7px.png" alt="검색" />
+          </li>
+          <li class="item pright">
+            <img src="./icon/account7px.png" alt="계정" />
+          </li>
+          <li class="item pright">
+            <img src="./icon/like7px.png" alt="위시리스트" />
+          </li>
+          <li class="item pright">
+            <img src="./icon/cart7px.png" alt="장바구니" />
+          </li>
+          <li class="item">
+            <img
+              class="hamburger"
+              src="./icon/hamburger_menu7px.png"
+              alt="햄버거메뉴"
+            />
+          </li>
+        </ul>
+        <ul id="drop-down">
+          <li class="shop">
+            <h3>Shop<span> ∨</span></h3>
+          </li>
+          <li id="menu" class="shop-menu">
+            <div><h4>Best</h4></div>
+            <div><h4>New</h4></div>
+            <div class="sale"><h4>Sale</h4></div>
+            <div><h4>All</h4></div>
+            <div><h4>Outer</h4></div>
+            <div><h4>Top</h4></div>
+            <div><h4>Bottom</h4></div>
+            <div><h4>Dress</h4></div>
+            <div><h4>Acc</h4></div>
+          </li>
+          <li id="community">
+            <h3>Community<span> ∨</span></h3>
+          </li>
+          <li id="menu2">
+            <div><h4>Notice</h4></div>
+            <div><h4>FAQ</h4></div>
+            <div><h4>Q&A</h4></div>
+            <div><h4>Review</h4></div>
+          </li>
+          <li><h3 class="about-login">About</h3></li>
+          <li><h3>Login</h3></li>
+          <li><h3>Account</h3></li>
+        </ul>
+      </nav>
+
+      <!-- TODO 본문 -->
+      <section class="container clear">
+        <!-- TODO 제품 사진 -->
+        <div class="product-img">
+          <img src="./img/new4_detail_2000_2500.jpg" alt="제품 사진" />
+        </div>
+        <div class="container3">
+          <div class="product-info">
+            <p>classic trench coat_<span class="color-get">beige</span></p>
+            <p id="product-price">158,000원</p>
+            <hr class="gray4-hr" />
+            <div class="item-info">
+              <div class="item-option">
+                <ul id="color">
+                  <li>Color</li>
+                  <li class="color-pick">
+                    <img src="./icon/color_pick.png" alt="베이지 색깔" />
+                  </li>
+                </ul>
+                <div id="size">
+                  Size <button class="secondary-btn">FREE</button>
+                </div>
+              </div>
+              <div class="coupon">
+                <img src="./icon/new_member_coupon.png" alt="신규 가입 쿠폰" />
+              </div>
+              <div class="clear"></div>
+            </div>
+            <div id="info">
+              <div class="info">
+                <span class="size-color">
+                  <span id="c"></span>,
+                  <span id="s"></span>
+                </span>
+                <span class="counting">
+                  <button class="number">-</button
+                  ><input type="text" id="quantity" value="1" /><button
+                    class="number"
+                  >
+                    +
+                  </button>
+                </span>
+                <span id="p"></span>
+              </div>
+            </div>
+            <p class="total clear">
+              TOTAL
+            </p>
+            <p id="total-price">0원</p>
+            <div class="clear"></div>
+            <div class="btn-wrapper">
+              <button class="primary-btn2">장바구니</button>
+              <button class="primary-btn2">구매하기</button>
+            </div>
+            <button class="primary-btn2 wishlist">관심 상품</button>
+          </div>
+          <div class="clear"></div>
+          <div class="btn-wrapper2">
+            <button class="primary-btn2">장바구니</button>
+            <button class="primary-btn2">구매하기</button>
+          </div>
+        </div>
+        <hr class="gray2-hr" />
+        <div class="container3">
+          <ul class="detail-list">
+            <li><a href="#detail-info">상세 정보</a></li>
+            <li><a href="#review">상품 후기</a></li>
+            <li><a href="#qna">상품 문의</a></li>
+          </ul>
+          <div class="branding-wrapper">
+            <div class="branding_message">
+              <img src="./img/branding_banner_pc.png" alt="브랜딩 배너" />
+            </div>
+            <div class="imgs" id="detail-info">
+              <img src="./img/detail_info_pc.png" alt="제품 상세 정보" />
+            </div>
+            <h3 class="recommend">당신만을 위한 추천 상품</h3>
+            <!-- 스와이퍼 -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="./img/swiper-slide1.png"
+                    alt="흰색 레이스 블라우스"
+                  />
+                  <p>lace blouse-white</p>
+                  <p>79,000원</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/swiper-slide2.png" alt="귀걸이" />
+                  <p>ring earring-silver</p>
+                  <p>109,000원</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/swiper-slide3.png" alt="베이지색 블라우스" />
+                  <p>blouse-beige</p>
+                  <p>69,000원</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/swiper-slide4.png" alt="흰색 목니트" />
+                  <p>turtleneck knit-white</p>
+                  <p>79,000원</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/swiper-slide5.png" alt="베이지색 니트" />
+                  <p>round knit-beige</p>
+                  <p>69,000원</p>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./img/swiper-slide6.png" alt="검은색 가죽 점퍼" />
+                  <p>leather jumper-black</p>
+                  <p>159,000원</p>
+                </div>
+              </div>
+            </div>
+            <div class="user_guide_bottom">
+              <img
+                src="./img/userguide&reviewevent_pc.png"
+                alt="이용안내 및 리뷰 이벤트"
+              />
+            </div>
+            <!-- 후기 -->
+            <h2 class="review-wrapper" id="review">REVIEW</h2>
+            <ul>
+              <li><button class="review review-btn">후기 쓰기</button></li>
+              <li><button class="review look review-btn">모두 보기</button></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <hr class="gray2-hr2 clear" />
+      <section class="container3 con4">
+        <div class="review_1">
+          <p class="review-content">상품 설명처럼 간절기 필수템이네요.</p>
+          <p class="review-content">디자인이 심플해서 자주 입게 돼요.</p>
+          <div class="photo_attach">
+            <img src="./icon/photo_attach7px.png" alt="사진 첨부" />
+          </div>
+          <div class="reviewer-wrapper">
+            <div class="reviewer">
+              <p>K****<span class="date-area">2025-03-10</span></p>
+            </div>
+            <p class="see-more">더보기</p>
+          </div>
+        </div>
+      </section>
+      <hr class="gray2-hr2" />
+      <section class="container3 con4">
+        <div class="review_1">
+          <p class="review-content">컬러가 너무 마음에 들어요.</p>
+          <p class="review-content">
+            원단이 고급스럽고 안감 체크 패턴이 멋스러워요.
+          </p>
+          <div class="photo_attach">
+            <img src="./icon/photo_attach7px.png" alt="사진 첨부" />
+          </div>
+          <div class="reviewer-wrapper">
+            <div class="reviewer">
+              <p>m****<span class="date-area">2025-03-07</span></p>
+            </div>
+            <p class="see-more">더보기</p>
+          </div>
+        </div>
+      </section>
+      <hr class="gray2-hr2" />
+      <div class="pageno">
+        <ul class="pageno-box">
+          <li><a href="#none" class="one"><</a></li>
+          <li><a href="#none" class="active">1</a></li>
+          <li><a href="#none" class="">2</a></li>
+          <li><a href="#none" class="">3</a></li>
+          <li><a href="#none" class="one">></a></li>
+        </ul>
+      </div>
+      <!-- 문의 -->
+      <section class="container3 qna-box con4">
+        <h2 class="review-wrapper" id="qna">Q&A</h2>
+        <ul>
+          <li><button class="review review-btn">문의 쓰기</button></li>
+          <li><button class="review look review-btn">모두 보기</button></li>
+        </ul>
+      </section>
+      <hr class="gray2-hr2 clear" />
+      <section class="container2 con4">
+        <div class="qna_1">
+          <div class="question">
+            <div class="photo_attach lock-icon">
+              <img src="./icon/qna_lock_7px.png" alt="잠금" />
+            </div>
+            <div class="review-content q1">기타 문의</div>
+          </div>
+          <div class="reviewer-wrapper clear">
+            <div class="reviewer2">
+              <p>김**<span class="date-area">2025-03-03</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="gray2-hr2" />
+      <section class="container2 con4">
+        <div class="qna_2">
+          <div class="question2">
+            <div class="photo_attach lock-icon">
+              <img src="./icon/qna_arrow7px.png" alt="화살표" />
+            </div>
+            <div class="photo_attach lock-icon">
+              <img src="./icon/qna_lock_7px.png" alt="잠금" />
+            </div>
+            <div class="review-content q1">기타 문의</div>
+          </div>
+          <div class="reviewer-wrapper clear">
+            <div class="reviewer2">
+              <p>MILOSOME<span class="date-area">2025-03-03</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="gray2-hr2" />
+      <section class="container2 con4">
+        <div class="qna_1">
+          <div class="question">
+            <div class="photo_attach lock-icon">
+              <img src="./icon/qna_lock_7px.png" alt="잠금" />
+            </div>
+            <div class="review-content q1">상품 문의</div>
+          </div>
+          <div class="reviewer-wrapper clear">
+            <div class="reviewer2">
+              <p>박**<span class="date-area">2025-03-05</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="gray2-hr2" />
+      <section class="container2 con4">
+        <div class="qna_2">
+          <div class="question2">
+            <div class="photo_attach lock-icon">
+              <img src="./icon/qna_arrow7px.png" alt="화살표" />
+            </div>
+            <div class="photo_attach lock-icon">
+              <img src="./icon/qna_lock_7px.png" alt="잠금" />
+            </div>
+            <div class="review-content q1">상품 문의</div>
+          </div>
+          <div class="reviewer-wrapper clear">
+            <div class="reviewer2">
+              <p>MILOSOME<span class="date-area">2025-03-05</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="gray2-hr2" />
+      <div class="pageno">
+        <ul class="pageno-box">
+          <li><a href="#none" class=""><</a></li>
+          <li><a href="#none" class="">1</a></li>
+          <li><a href="#none" class="active">2</a></li>
+          <li><a href="#none" class="">3</a></li>
+          <li><a href="#none" class="">></a></li>
+        </ul>
+      </div>
+      <!-- TODO 꼬리말 -->
+      <hr class="olive-hr" />
+      <footer>
+        <div class="footer-left">
+          <p class="cs">
+            <span class="cs1">customer services</span><span> ∨</span>
+          </p>
+          <ul id="cs-info">
+            <li>T.<a href="tel:1600-0000"> 1600-0000</a></li>
+            <li>MON-FRI : 10AM – 6PM</li>
+            <li>LUNCH : 12PM – 1PM</li>
+            <li>SAT.SUN.HOLIDAY OFF</li>
+            <br />
+            <li>KB 12345678987654 김소영</li>
+          </ul>
+          <ul class="company-name">
+            <li>상호: (주)밀로썸 (MILOSOME) 대표자 : 김소영</li>
+            <li>사업자등록번호 : 1234567890</li>
+            <li>통신판매업 : 2025-서울용산-0000</li>
+            <address><li>주소 : 서울특별시 용산구 한남동</li></address>
+            <br />
+            <li>Copyright ⓒ (주)밀로썸 All Rights Reserved.</li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <div class="about-guide">
+            <ul class="about">
+              <li>ABOUT</li>
+              <li>NOTICE</li>
+              <li>MEMBER</li>
+              <li>PRIVACY</li>
+              <li class="home">HOME</li>
+            </ul>
+            <ul class="user-guide">
+              <li>FAQ</li>
+              <li>Q&A</li>
+              <li>이용안내</li>
+              <li>이용약관</li>
+              <br />
+              <ul class="sns-wrapper">
+                <li class="sns">
+                  <a class="sns-url" href="#none" title="밀로썸 인스타그램"
+                    ><img src="./icon/instagram7px.png" alt="인스타그램"
+                  /></a>
+                </li>
+                <li class="sns">
+                  <a class="sns-url" href="#none" title="밀로썸 유튜브"
+                    ><img src="./icon/youtube7px.png" alt="유튜브"
+                  /></a>
+                </li>
+                <li class="sns">
+                  <a class="sns-url" href="#none" title="밀로썸 카톡 채널"
+                    ><img
+                      src="./icon/kakaotalk7px.png"
+                      alt="카카오톡"
+                      id="down"
+                  /></a>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- TODO js -->
+    <!-- TODO : jquery cdn(인터넷주소) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- TODO : 2) Swiper JS: 공식사이트) https://swiperjs.com/demos -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/00_common.js"></script>
+    <!-- TODO : 나의 js -->
+    <script src="./js/detail.js"></script>
+  </body>
+</html>
