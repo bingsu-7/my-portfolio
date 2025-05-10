@@ -20,10 +20,10 @@ $(function () {
       // 마우스가 올라갔을때 실행
       $("#drop-down").toggle();
       if ($("#drop-down").css("display") == "block") {
-        $(".item .hamburger").attr("src", "./icon/close_black7px.png");
+        $(".item .hamburger").attr("src", "icon/close_black7px.png");
         $("body").css("overflow", "hidden"); // 스크롤 잠금
       } else {
-        $(".item .hamburger").attr("src", "./icon/hamburger_menu7px.png");
+        $(".item .hamburger").attr("src", "icon/hamburger_menu7px.png");
         $("body").css("overflow", "auto"); // 스크롤 해제
       }
     });

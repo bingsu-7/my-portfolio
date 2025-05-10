@@ -1,19 +1,19 @@
 // 좋아요 클릭 시 하트 채워짐
   $(function () {
     $(".new-things > .product > .like1").click(function () {
-      if ($(this).attr("src") === "./icon/like7px.png") {
-        $(".new-things > .product > .like1").attr("src", "./icon/like_filled7px.png");
+      if ($(this).attr("src") === "icon/like7px.png") {
+        $(".new-things > .product > .like1").attr("src", "icon/like_filled7px.png");
       } else {
-        $(".new-things > .product > .like1").attr("src", "./icon/like7px.png");
+        $(".new-things > .product > .like1").attr("src", "icon/like7px.png");
       }
     });
   });
   $(function () {
     $(".new-things > .product > .like2").click(function () {
-      if ($(this).attr("src") === "./icon/like7px.png") {
-        $(".new-things > .product > .like2").attr("src", "./icon/like_filled7px.png");
+      if ($(this).attr("src") === "icon/like7px.png") {
+        $(".new-things > .product > .like2").attr("src", "icon/like_filled7px.png");
       } else {
-        $(".new-things > .product > .like2").attr("src", "./icon/like7px.png");
+        $(".new-things > .product > .like2").attr("src", "icon/like7px.png");
       }
     });
   });
