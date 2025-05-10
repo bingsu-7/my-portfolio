@@ -1,3 +1,5 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
+C:/Work/01_PROJECT_copy/img filter=lfs diff=lfs merge=lfs -text
+C:/Work/01_PROJECT_copy/icon filter=lfs diff=lfs merge=lfs -text
