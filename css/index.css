@@ -1,5 +1,5 @@
 /* main img */
-.main { clear: both; height: 63vh; background-image: url("../img/main_393_499.png"); background-size: cover; background-position: center; background-repeat: no-repeat; } 
+.main { clear: both; height: 63vh; background-image: url("../img/main_393_499.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; } 
 .main2 { height: 63vh; background-image: url("../img/main2_393_499.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat; } 
 .swiper-pagination-bullet { width: 0.7rem; /* 불릿 크기 변경 */
  height: 0.7rem; background-color: var(--white); /* 불릿 색상 변경 */
@@ -29,7 +29,7 @@ p { font-weight: 400; }
 .brand-message { text-align: center; padding: 13% 0; margin: 0; font-size: 1rem; } 
 .brand-message > .primary-btn { margin-top: 0.3rem; font-weight: 500; } 
 
-.popup-store { background-image: url("../img/popupstore_banner_1920_1280.jpg"); width: 100%; height: 34vh; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; } 
+.popup-store { background-image: url("../img/popupstore_banner_692_461.jpg"); width: 100%; height: 34vh; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; } 
 .popup-store > .primary-btn { width: 6rem; position: absolute; left: 50%; top: 55%; transform: translateX(-50%); border-radius: 3rem; padding: 0; width: 4.3rem; } 
 /* TODO: 태블릿 */
 @media screen and (min-width: 768px){
@@ -39,8 +39,8 @@ p { font-weight: 400; }
 /* 머리말 */
 .top-menu { padding: 0 5.5%; font-size: 1.3rem; height: 2rem; } 
 .close { width: 1rem; height: 1rem; } 
-.main { background-image: url(../img/ipad_swiper1_768_624.png);height: 70vh;} 
-.main2 { background-image: url(../img/ipad_swiper2_768_624.png);height: 70vh;} 
+.main { background-image: url(../img/main_pc_768_589.jpg);height: 70vh;} 
+.main2 { background-image: url(../img/main2_pc_768_589.jpg);height: 70vh;} 
 .gnb { height: 7vh; justify-content: space-between; } 
 .logo { font-size: 2rem; flex-grow: 0; }
 
@@ -89,9 +89,13 @@ footer { padding-bottom: 0; }
 #drop-down h3 {font-size: 1.2rem;}
 #menu div, #menu2 div {font-size: 1rem;}
 .about-login, #community { margin-top: 1rem; } 
- 
-.main { background-image: url(../img/imac_swiper1_814_624.png);height: 90vh;} 
-.main2 { background-image: url(../img/imac_swiper2_814_624.png);height: 90vh;} 
+
+.top-menu { padding: 0 1%; }
+ .gnb {  padding: 0 1%;}
+ #shop {padding-left: 0;}
+.gnb > .menu {padding-right: 0; width: auto; }  
+.main { background-image: url(../img/main_pc_768_589.jpg);height: 90vh;} 
+.main2 { background-image: url(../img/main2_pc_768_589.jpg);height: 90vh;} 
 /* 본문 */
 .popup-store { height: 67vh; } 
  }

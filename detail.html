@@ -21,13 +21,15 @@
   <body>
     <div id="page">
       <!-- fab -->
-      <div class="fab">
-        <a href="#up"><img src="icon/fab_up7px.png" alt="위로 이동" /></a>
-      </div>
-      <div class="fab2">
-        <a href="#down"
-          ><img src="icon/fab_down7px.png" alt="아래로 이동"
-        /></a>
+      <div>
+        <div class="fab">
+          <a href="#up"><img src="icon/fab_up7px.png" alt="위로 이동" /></a>
+        </div>
+        <div class="fab2">
+          <a href="#down"
+            ><img src="icon/fab_down7px.png" alt="아래로 이동"
+          /></a>
+        </div>
       </div>
       <!-- 머리말 -->
       <header class="top-menu" id="up">
@@ -125,7 +127,7 @@
       <section class="container clear">
         <!-- TODO 제품 사진 -->
         <div class="product-img">
-          <img src="img/new4_detail_2000_2500.jpg" alt="제품 사진" />
+          <img src="img/new4_detail_361_451.jpg" alt="제품 사진" />
         </div>
         <div class="container3">
           <div class="product-info">
@@ -166,9 +168,7 @@
                 <span id="p"></span>
               </div>
             </div>
-            <p class="total clear">
-              TOTAL
-            </p>
+            <p class="total clear">TOTAL</p>
             <p id="total-price">0원</p>
             <div class="clear"></div>
             <div class="btn-wrapper">
@@ -190,22 +190,79 @@
             <li><a href="#review">상품 후기</a></li>
             <li><a href="#qna">상품 문의</a></li>
           </ul>
-          <div class="branding-wrapper">
+          <div class="various-info">
             <div class="branding_message">
-              <img src="img/branding_banner_pc.png" alt="브랜딩 배너" />
+              <img src="img/branding_banner_pc_615_376.jpg" alt="브랜딩 배너" />
             </div>
+            <p class="message">
+              MILOSOME은 서울을 기반으로 하는 한국 디자이너 브랜드입니다.<br />우리는
+              미니멀리즘을 추구하며, <br />당신에게 좋은 것 —<span class="br"
+                >가치 있고 높은 품질의 무언가를 드리는 데 전념합니다.</span
+              >
+            </p>
             <div class="imgs" id="detail-info">
-              <img src="img/detail_info_pc.png" alt="제품 상세 정보" />
+              <img src="img/detail_top_pc_615_816.jpg" alt="제품 상세 정보" />
+            </div>
+            <article class="information">
+              <p class="">
+                간절기 필수 아이템 클래식 트렌치 코트<br />안감 체크 패턴이
+                포인트가 되는 제품입니다. <br />어깨 견장 장식, 소매 버클 등
+                디테일이 좋습니다.<br />베이직한 디자인으로 활용도가 높습니다.
+              </p>
+              <p class="model-size">MODEL 163CM BUST 81 WAIST 62 HIP 90</p>
+            </article>
+            <div class="imgs" id="detail-info">
+              <img
+                src="img/detail_cuts_pc_645__9691.jpg"
+                alt="제품 상세 사진들"
+              />
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Size(cm)</th>
+                  <th scope="col">가슴</th>
+                  <th scope="col">어깨</th>
+                  <th scope="col">소매길이</th>
+                  <th scope="col">소매통</th>
+                  <th scope="col">총길이</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>FREE</td>
+                  <td>50</td>
+                  <td>47</td>
+                  <td>60</td>
+                  <td>16</td>
+                  <td>110</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="annotation">* 가슴, 어깨, 소매통 단면 기준입니다.</p>
+            <article class="material">
+              <p>소재</p>
+              <p>면 100%</p>
+            </article>
+            <article class="laundry">
+              <p>세탁방법</p>
+              <p>
+                중성세제&찬물 손세탁 | 표백 금지 | 비틀기 금지<br />
+                그늘에 옷걸이 | 기계 건조 불가 | 드라이클리닝
+              </p>
+            </article>
+            <div class="imgs" id="detail-info">
+              <img
+                src="img/detail_thickness_pc_645_456.png"
+                alt="제품 상세 정보"
+              />
             </div>
             <h3 class="recommend">당신만을 위한 추천 상품</h3>
             <!-- 스와이퍼 -->
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img
-                    src="img/swiper-slide1.png"
-                    alt="흰색 레이스 블라우스"
-                  />
+                  <img src="img/swiper-slide1.png" alt="흰색 레이스 블라우스" />
                   <p>lace blouse-white</p>
                   <p>79,000원</p>
                 </div>
@@ -238,18 +295,20 @@
             </div>
             <div class="user_guide_bottom">
               <img
-                src="img/userguide&reviewevent_pc.png"
-                alt="이용안내 및 리뷰 이벤트"
+                src="img/detail_shipping_pc_646_2004.png"
+                alt="배송,반품 안내 및 리뷰 이벤트"
               />
             </div>
-            <!-- 후기 -->
-            <h2 class="review-wrapper" id="review">REVIEW</h2>
-            <ul>
-              <li><button class="review review-btn">후기 쓰기</button></li>
-              <li><button class="review look review-btn">모두 보기</button></li>
-            </ul>
           </div>
         </div>
+      </section>
+      <!-- 후기 -->
+      <section class="container3 con4 qna-wrapper">
+        <h2 class="review-wrapper" id="review">REVIEW</h2>
+        <ul class="round-btn-wrapper">
+          <li><button class="review review-btn">모두 보기</button></li>
+          <li><button class="review review-btn">후기 쓰기</button></li>
+        </ul>
       </section>
       <hr class="gray2-hr2 clear" />
       <section class="container3 con4">
@@ -259,12 +318,11 @@
           <div class="photo_attach">
             <img src="icon/photo_attach7px.png" alt="사진 첨부" />
           </div>
-          <div class="reviewer-wrapper">
-            <div class="reviewer">
-              <p>K****<span class="date-area">2025-03-10</span></p>
-            </div>
+          <article class="reviewer-wrapper">
+            <p>K****</p>
+            <p class="date-area">2025-03-10</p>
             <p class="see-more">더보기</p>
-          </div>
+          </article>
         </div>
       </section>
       <hr class="gray2-hr2" />
@@ -277,30 +335,27 @@
           <div class="photo_attach">
             <img src="icon/photo_attach7px.png" alt="사진 첨부" />
           </div>
-          <div class="reviewer-wrapper">
-            <div class="reviewer">
-              <p>m****<span class="date-area">2025-03-07</span></p>
-            </div>
+          <article class="reviewer-wrapper">
+            <p>K****</p>
+            <p class="date-area">2025-03-10</p>
             <p class="see-more">더보기</p>
-          </div>
+          </article>
         </div>
       </section>
       <hr class="gray2-hr2" />
-      <div class="pageno">
-        <ul class="pageno-box">
-          <li><a href="#none" class="one"><</a></li>
-          <li><a href="#none" class="active">1</a></li>
-          <li><a href="#none" class="">2</a></li>
-          <li><a href="#none" class="">3</a></li>
-          <li><a href="#none" class="one">></a></li>
-        </ul>
-      </div>
+      <ul class="pageno">
+        <li><a href="#none" class=""><</a></li>
+        <li><a href="#none" class="active">1</a></li>
+        <li><a href="#none" class="">2</a></li>
+        <li><a href="#none" class="">3</a></li>
+        <li><a href="#none" class="">></a></li>
+      </ul>
       <!-- 문의 -->
-      <section class="container3 qna-box con4">
+      <section class="container3 con4 qna-wrapper">
         <h2 class="review-wrapper" id="qna">Q&A</h2>
-        <ul>
+        <ul class="round-btn-wrapper">
+          <li><button class="review review-btn">모두 보기</button></li>
           <li><button class="review review-btn">문의 쓰기</button></li>
-          <li><button class="review look review-btn">모두 보기</button></li>
         </ul>
       </section>
       <hr class="gray2-hr2 clear" />
@@ -311,11 +366,12 @@
               <img src="icon/qna_lock_7px.png" alt="잠금" />
             </div>
             <div class="review-content q1">기타 문의</div>
+            <div class="clear"></div>
           </div>
-          <div class="reviewer-wrapper clear">
-            <div class="reviewer2">
-              <p>김**<span class="date-area">2025-03-03</span></p>
-            </div>
+          <div class="reviewer-wrapper">
+            <p>김**</p>
+            <p class="date-area">2025-03-03</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </div>
         </div>
       </section>
@@ -330,11 +386,12 @@
               <img src="icon/qna_lock_7px.png" alt="잠금" />
             </div>
             <div class="review-content q1">기타 문의</div>
+            <div class="clear"></div>
           </div>
-          <div class="reviewer-wrapper clear">
-            <div class="reviewer2">
-              <p>MILOSOME<span class="date-area">2025-03-03</span></p>
-            </div>
+          <div class="reviewer-wrapper">
+            <p>김**</p>
+            <p class="date-area">2025-03-03</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </div>
         </div>
       </section>
@@ -346,11 +403,12 @@
               <img src="icon/qna_lock_7px.png" alt="잠금" />
             </div>
             <div class="review-content q1">상품 문의</div>
+            <div class="clear"></div>
           </div>
-          <div class="reviewer-wrapper clear">
-            <div class="reviewer2">
-              <p>박**<span class="date-area">2025-03-05</span></p>
-            </div>
+          <div class="reviewer-wrapper">
+            <p>김**</p>
+            <p class="date-area">2025-03-03</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </div>
         </div>
       </section>
@@ -365,24 +423,23 @@
               <img src="icon/qna_lock_7px.png" alt="잠금" />
             </div>
             <div class="review-content q1">상품 문의</div>
+            <div class="clear"></div>
           </div>
-          <div class="reviewer-wrapper clear">
-            <div class="reviewer2">
-              <p>MILOSOME<span class="date-area">2025-03-05</span></p>
-            </div>
+          <div class="reviewer-wrapper">
+            <p>김**</p>
+            <p class="date-area">2025-03-03</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </div>
         </div>
       </section>
       <hr class="gray2-hr2" />
-      <div class="pageno">
-        <ul class="pageno-box">
-          <li><a href="#none" class=""><</a></li>
-          <li><a href="#none" class="">1</a></li>
-          <li><a href="#none" class="active">2</a></li>
-          <li><a href="#none" class="">3</a></li>
-          <li><a href="#none" class="">></a></li>
-        </ul>
-      </div>
+      <ul class="pageno">
+        <li><a href="#none" class=""><</a></li>
+        <li><a href="#none" class="">1</a></li>
+        <li><a href="#none" class="active">2</a></li>
+        <li><a href="#none" class="">3</a></li>
+        <li><a href="#none" class="">></a></li>
+      </ul>
       <!-- TODO 꼬리말 -->
       <hr class="olive-hr" />
       <footer>
@@ -408,43 +465,38 @@
           </ul>
         </div>
         <div class="footer-right">
-          <div class="about-guide">
-            <ul class="about">
-              <li>ABOUT</li>
-              <li>NOTICE</li>
-              <li>MEMBER</li>
-              <li>PRIVACY</li>
-              <li class="home">HOME</li>
-            </ul>
-            <ul class="user-guide">
-              <li>FAQ</li>
-              <li>Q&A</li>
-              <li>이용안내</li>
-              <li>이용약관</li>
-              <br />
-              <ul class="sns-wrapper">
-                <li class="sns">
-                  <a class="sns-url" href="#none" title="밀로썸 인스타그램"
-                    ><img src="icon/instagram7px.png" alt="인스타그램"
-                  /></a>
-                </li>
-                <li class="sns">
-                  <a class="sns-url" href="#none" title="밀로썸 유튜브"
-                    ><img src="icon/youtube7px.png" alt="유튜브"
-                  /></a>
-                </li>
-                <li class="sns">
-                  <a class="sns-url" href="#none" title="밀로썸 카톡 채널"
-                    ><img
-                      src="icon/kakaotalk7px.png"
-                      alt="카카오톡"
-                      id="down"
-                  /></a>
-                </li>
-              </ul>
-            </ul>
-          </div>
+          <ul class="about">
+            <li>ABOUT</li>
+            <li>NOTICE</li>
+            <li>MEMBER</li>
+            <li>PRIVACY</li>
+            <li class="home">HOME</li>
+          </ul>
+          <ul class="user-guide">
+            <li>FAQ</li>
+            <li>Q&A</li>
+            <li>이용안내</li>
+            <li>이용약관</li>
+            <br />
+            <li class="sns">
+              <a class="sns-url" href="#none" title="밀로썸 인스타그램"
+                ><img src="icon/instagram7px.png" alt="인스타그램"
+              /></a>
+            </li>
+            <li class="sns">
+              <a class="sns-url" href="#none" title="밀로썸 유튜브"
+                ><img src="icon/youtube7px.png" alt="유튜브"
+              /></a>
+            </li>
+            <li class="sns">
+              <a class="sns-url" href="#none" title="밀로썸 카톡 채널"
+                ><img src="icon/kakaotalk7px.png" alt="카카오톡" id="down"
+              /></a>
+            </li>
+          </ul>
+          <div class="clear"></div>
         </div>
+        <div class="clear"></div>
       </footer>
     </div>
     <!-- TODO js -->

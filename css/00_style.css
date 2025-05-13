@@ -16,14 +16,19 @@ a { text-decoration: none; color: var(--black); }
 .primary-btn { background-color: var(--white); color: var(--black); font-size: 0.9rem; border: 1px solid var(--light-olive); padding: 0.2rem 0.7rem;} 
 
 .primary-btn:active { background-color: var(--light-olive); color: var(--white); } 
+
+.secondary-btn { background-color: var(--white); color: var(--black); border: 1px solid var(--gray-2); padding: 0.1rem 0.7rem; font-size: 1rem; cursor: pointer; border-radius: 0; margin-left: 1.5rem; } 
+.secondary-btn:active { border: 1px solid var(--gray-5); } 
+
+.review-btn { border: 1px solid var(--blue); background-color: var(--white); padding: 0.2rem 0.5rem; border-radius: 5rem; font-weight: bold;font-size: 1rem; } 
+.review-btn:active { background-color: var(--blue); color: var(--white); } 
 .clear { clear: both; } 
 
 .olive-hr { border: none; /* 기본 선 제거 */
     height: 2px; /* 선의 두께 설정 */
     background-color: var(--light-olive); 
     width: 100%;
-    margin: 0 0 0.5rem 0; } 
-
+   } 
 
 
 

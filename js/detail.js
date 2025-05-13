@@ -27,7 +27,7 @@ $(function () {
   $(window).scroll(function () {
     let a = $(window).scrollTop();
     let windowWidth = $(window).width();
-    if (windowWidth < 768 && a >= 700) {
+    if (windowWidth < 768 && a >= 750) {
       $(".btn-wrapper2").addClass("fixed-bottom").css("display", "flex"); // 고정 및 표시
     } else {
       $(".btn-wrapper2").removeClass("fixed-bottom").css("display", "none"); // 해제 및 숨김

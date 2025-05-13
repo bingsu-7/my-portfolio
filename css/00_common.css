@@ -42,6 +42,7 @@
  .about-login,  #community { margin-top: 2rem; } 
  
  /* 꼬리말 */
+ .olive-hr {margin: 5vh 0 2vh 0;}
 footer { font-weight: bold; padding: 5%;} 
 
  .cs { padding: 0 0 1rem 0; font-size: 1rem; } 
@@ -51,7 +52,6 @@ footer { font-weight: bold; padding: 5%;}
 .user-guide { float: right; text-align: right; width: 50%; } 
 .about { float: left; width: 50%; } 
 .footer-right { font-size: 1rem; }
-.olive-hr {margin: 5vh 0 2vh 0;}
 
 .home {margin-top: 1rem;}
 
