@@ -33,8 +33,11 @@ background-color: var(--light-olive);  /* 선의 색상 설정 */
 .gray2-hr { border: none; 
  height: 2px;
  background-color: var(--gray-2);
- margin: 0 auto;
 } 
+.gray2-hr2 { border: none; 
+ height: 2px; 
+ background-color: var(--gray-2); 
+ } 
 .gray4-hr { border: none; 
  height: 2px; 
  background-color: var(--gray-4);

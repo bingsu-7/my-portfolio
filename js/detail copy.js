@@ -2,7 +2,6 @@
 $(function () {
   let c = "",
     s = "";
-    let p = $("#product-price").text(); // 원가
   // TODO color 버튼을 클릭하면
   $(".color-pick").click(function () {
     // TODO button 태그 사이 글자 임시 저장: c
@@ -14,7 +13,7 @@ $(function () {
     s = $(this).text();
     // TODO 임시 저장된 글자 s(사이즈),c(컬러) 에 값이 있다면
     if (c !== "" && s !== "") {
-      
+      let p = $("#product-price").text(); // 원가
       $("#s").text(s); // 사이즈
       $("#c").text(c); // 컬러
       $("#p").text(p); // 원가 표시
