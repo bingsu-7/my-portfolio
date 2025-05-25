@@ -1,5 +1,5 @@
 /* 머리말 + 꼬리말 */
-#page { width: 100%; margin: 0 auto; } 
+#page { width: 100%; height: 100vh; margin: 0 auto; } 
  /* 스크롤 스무스하게 */
  html { scroll-behavior: smooth; } 
  /* fab */
@@ -27,9 +27,8 @@
  #shop-menu li, #commu-menu li { margin-bottom: 1rem; } 
 
  .logo { font-size: 1.2rem; flex-grow: 1; } 
- .menu { width: 7.5rem; flex-grow: 0; } 
- .item { display: inline-block; } .item img { width: 1.1rem; } 
- .menu .pright { padding-right: 0.2rem; } 
+ .menu { width: 7.5rem; flex-grow: 0;display: flex; gap: 0.5rem; } 
+ .item img { width: 1.1rem; } 
  
  .fixed { position: fixed; top: 0; right: 0; width: 100%; } 
  #drop-down #menu > .sale, #shop-menu > .sale { color: red; } 
@@ -74,7 +73,6 @@ footer { font-weight: bold; padding: 5%; }
 
 .menu { padding-right: 1.4rem; width: 14rem; } 
 .item > img { width: 2rem; } 
-.menu .pright { padding-right: 6px; } 
 
 #drop-down li { padding: 1.5rem 0 0 2rem; } 
 #drop-down h3 { font-size: 1.7rem; } 

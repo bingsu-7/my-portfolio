@@ -7,29 +7,30 @@
 .swiper-pagination-bullet-active { opacity: 1; /* 활성화된 불릿 투명도 변경 */ } 
 
 /* 본문 */
-.container { margin: 5% 0; } 
+.container { margin: 5% 0; text-align: center; } 
 
 .new-things > li:nth-of-type(2n+1) { margin-right: 6%; } 
 .best-things > li:nth-of-type(2n+1) { margin-right: 6%; } 
 
-.new, .best { text-decoration: underline; text-align: center; } 
+.new, .best { text-decoration: underline;} 
 .new, .best { margin: 10% 0;}
 
-.product { float: left; width: 47%; height: 20%; position: relative; margin-bottom: 2%; } 
+.product { float: left; width: 47%; height: 20%; position: relative; margin-bottom: 2%;} 
 p { font-weight: 400; } 
 
 .product > img { max-width: 100%; height: auto; display: block; padding-bottom: 2%; } 
 
 .product .like { width: 1.2rem; position: absolute; right: 3%; top: 2%; } 
+/* .a-block {display: inline-block; height: auto;} */
 
 .regular-price { text-decoration-line: line-through; color: var(--gray-2); font-size: 0.9rem; } 
-.discount { border: 1px solid var(--beige); background-color: var(--beige); color: var(--red); margin: 0 auto; width: 20%; text-align: center; } 
-.item-name { text-align: center; margin-bottom: 2%; } 
+.discount { border: 1px solid var(--beige); background-color: var(--beige); color: var(--red); margin: 0 auto; width: 20%;  } 
+.item-name {margin-bottom: 2%; } 
 
-.brand-message { text-align: center; padding: 13% 0; margin: 0; font-size: 1rem; } 
+.brand-message { padding: 13% 0; margin: 0; font-size: 1rem; } 
 .brand-message > .primary-btn { margin-top: 0.3rem; font-weight: 500; } 
 
-.popup-store { background-image: url("../img/popupstore_banner_692_461.jpg"); width: 100%; height: 34vh; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; } 
+.popup-store { background-image: url("../img/popupstore_banner_692_461_2.jpg"); width: 100%; height: 34vh; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; } 
 .popup-store > .primary-btn { width: 6rem; position: absolute; left: 50%; top: 55%; transform: translateX(-50%); border-radius: 3rem; padding: 0; width: 4.3rem; } 
 /* TODO: 태블릿 */
 @media screen and (min-width: 768px){
@@ -60,11 +61,11 @@ p { font-weight: 400; }
 /* TODO: pc */
 @media screen and (min-width: 1280px){
  #page { width: 60%; } 
-
 .main { background-image: url(../img/main_pc_768_589.jpg);height: 90vh;} 
 .main2 { background-image: url(../img/main2_pc_768_589.jpg);height: 90vh;} 
 /* 본문 */
 .popup-store { height: 67vh; } 
-.product > img { width: 100%; } 
+.product > img { width: 100%; }
+img{width: 100%;} 
  }
 

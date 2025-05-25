@@ -51,7 +51,7 @@ $(function () {
     });
   });
   
-  // 태블릿, pc에서만 shop, community, about 보이고 모바일에서는 숨김
+  // 태블릿, pc에서만 shop, community 보이고 모바일에서는 숨김
   $(function () {
     function toggleMenu() {
       let windowWidth = $(window).width();
