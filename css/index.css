@@ -21,7 +21,6 @@ p { font-weight: 400; }
 .product > img { max-width: 100%; height: auto; display: block; padding-bottom: 2%; } 
 
 .product .like { width: 1.2rem; position: absolute; right: 3%; top: 2%; } 
-/* .a-block {display: inline-block; height: auto;} */
 
 .regular-price { text-decoration-line: line-through; color: var(--gray-2); font-size: 0.9rem; } 
 .discount { border: 1px solid var(--beige); background-color: var(--beige); color: var(--red); margin: 0 auto; width: 20%;  } 
