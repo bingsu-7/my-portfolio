@@ -13,7 +13,7 @@
  /* 머리말 */
  .top-menu { width: 100%; height: 1.5rem; background-color: var(--light-olive); text-align: center; color: var(--white); display: flex; justify-content: space-between; align-items: center; padding: 0 3%; font-size: 0.9rem; } 
  .close { width: 0.7rem; height: 0.7rem; vertical-align: middle; } 
- .gnb { width: 100%; height: 7vh; background-color: white; padding: 0 2%; z-index: 999; display: flex; align-items: center; } 
+ .gnb { width: 100%; height: 5.5vh; background-color: white; padding: 0 2%; z-index: 999; display: flex; align-items: center; } 
  .pc-menu { width: 6.7rem; } 
 
  /* 메뉴 클릭 시 열림 */
@@ -69,7 +69,7 @@ footer { font-weight: bold; padding: 5%; }
 .top-menu { padding: 0 6%; font-size: 1.3rem; height: 2rem; } 
 .close { width: 1rem; height: 1rem; } 
 
-.gnb {justify-content: space-between; }
+.gnb {justify-content: space-between;height: 7vh;}
 .pc-menu-wrapper { display: flex; width: 14rem; } 
 .logo { font-size: 2rem; flex-grow: 0; } 
 
