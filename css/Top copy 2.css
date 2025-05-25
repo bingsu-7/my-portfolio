@@ -4,7 +4,7 @@ body { font-size: 1rem; }
 .top-list, .top-sort, .box{ padding-top: 7%; } 
 .top-sort, .top-wrapper p{ text-align: center; } 
 .top-sort li { display: inline-block; width: 25%; } 
-.top { float: left; width: 47%;height: 20rem; text-align: center; font-size: 1rem; margin-bottom: 3vh; } 
+.top { float: left; width: 47%;height: 40vh; text-align: center; font-size: 1rem; margin-bottom: 3vh; } 
 .top:nth-of-type(2n+1) { margin-right: 6%; } 
 .top p { padding: 2% 0 0 0; } 
 /* .p-wrapper{height: 20%;} */
@@ -34,7 +34,7 @@ body { font-size: 1rem; }
 
 /* TODO: 태블릿 */
 @media screen and (min-width: 768px) {
-    .top{width: 30%;}
+    .top{width: 30%; height: 30vh;}
     .top:nth-of-type(2n+1) { margin-right: 0; } 
     .top:nth-of-type(3n+2) {  margin: 0 5%;  }
     .top-content{padding: 2% 5% 2% 5%;}
@@ -43,7 +43,7 @@ body { font-size: 1rem; }
 }
 /* TODO: pc */
 @media screen and (min-width: 1280px){
-        .top{margin-bottom: 10vh;}
+        .top{margin-bottom: 10vh;height: 40vh; }
     #page{width: 60%;}
      .product-img-container { position: relative; height: 90%; } 
 }
