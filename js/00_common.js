@@ -73,7 +73,7 @@ $(function () {
   $(function () {
     $("#shop").hover(function(){
         // 마우스가 올라갔을때 실행
-        $("#shop-menu").slideDown();
+        $("#shop-menu").stop().slideDown();
     }, function(){
         // 마우스가 내려갔을때 실행
         $("#shop-menu").slideUp();
@@ -82,7 +82,7 @@ $(function () {
   $(function () {
     $("#commu").hover(function(){
         // 마우스가 올라갔을때 실행
-        $("#commu-menu").slideDown();
+        $("#commu-menu").stop().slideDown();
     }, function(){
         // 마우스가 내려갔을때 실행
         $("#commu-menu").slideUp();
