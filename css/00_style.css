@@ -10,7 +10,7 @@
 body { font-family: "pretendard", "Roboto", sans-serif; } 
 li { list-style-type: none; } 
 a { text-decoration: none; color: var(--black);} 
-img{ display: block;max-width: 100%;} 
+/* img{ display: block;max-width: 100%;}  */
 .clear { clear: both; } 
 /* TODO : 커스텀 버튼 */
 .primary-btn { background-color: var(--white); color: var(--black); font-size: 0.9rem; border: 1px solid var(--light-olive); padding: 0.2rem 0.7rem; } 

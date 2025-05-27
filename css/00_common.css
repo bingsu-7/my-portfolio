@@ -5,7 +5,8 @@
  /* 스크롤 스무스하게 */
  html { scroll-behavior: smooth; } 
  /* fab */
- .fab, .fab2 { width: 3rem; height: 3rem; background-color: var(--light-olive); position: fixed; padding-top: 1px; right: 5%; z-index: 999; } 
+ .fab-wrapper{width: 3rem;height: 6rem;display: inline;}
+ .fab, .fab2 { width: 3rem; height: 3rem; background-color: var(--light-olive); position: fixed; padding-bottom: 1px; right: 5%; z-index: 999; } 
  .fab a img, .fab2 a img { height: 3rem; width: 90%; } 
  .fab { bottom: 26.5%; } 
  .fab2 { bottom: 20.5%; border-top: 1px solid var(--white); } 

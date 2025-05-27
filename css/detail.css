@@ -41,13 +41,13 @@ input[type="text"]:focus { /* TODO; 포커스 시 기존의 외곽선이 사라�
 .detail-list a { color: var(--gray-3); } 
 
 .branding_message { width: 100%; margin-top: 3rem; } 
-.branding_message > img { max-width: 100%; } 
+.branding_message > img { width: 100%; } 
 .message { text-align: center; margin: 3rem 0; font-size: 0.85rem; } 
 .br { display: block; } 
 .information { font-size: 0.9rem; margin: 2rem 0; } 
 .model-size { text-align: center; margin-top: 1rem; } 
 .imgs { width: 100%; margin-top: 1.5rem; } 
-.imgs > img { max-width: 100%; } 
+.imgs > img { width: 100%; } 
 table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 2rem; } 
 
 thead, tbody, th, tr, td { padding: 5px 0; border: 1px solid black; width: 16.66%; text-align: center; } 
@@ -69,7 +69,7 @@ html,body { height: 100%; }
 .swiper-slide p { font-size: 1rem; } 
 .recommend { font-weight: 900; margin: 1.5rem 0 1rem 0; font-size: 1.2rem; } 
 .user_guide_bottom { width: 100%; margin-top: 3rem; } 
-.user_guide_bottom > img { max-width: 100%; } 
+.user_guide_bottom > img { width: 100%; } 
 
 #review, #qna { font-size: 1.5rem; } 
 .review-wrapper, .review { margin: 1rem 0 0.5rem 0; }
