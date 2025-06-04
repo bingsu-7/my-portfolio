@@ -10,7 +10,6 @@
 body { font-family: "pretendard", "Roboto", sans-serif; } 
 li { list-style-type: none; } 
 a { text-decoration: none; color: var(--black);} 
-/* img{ display: block;max-width: 100%;}  */
 .clear { clear: both; } 
 /* TODO : 커스텀 버튼 */
 .primary-btn { background-color: var(--white); color: var(--black); font-size: 0.9rem; border: 1px solid var(--light-olive); padding: 0.2rem 0.7rem; } 
@@ -23,7 +22,10 @@ a { text-decoration: none; color: var(--black);}
 .secondary-btn:active { border: 1px solid var(--gray-5); } 
 
 .primary-btn3 { border: 1px solid var(--blue); background-color: var(--white); padding: 0.2rem 0.5rem; border-radius: 5rem; font-weight: bold; font-size: 1rem; } 
-.primary-btn3:active { background-color: var(--blue); color: var(--white); } 
+.primary-btn3:active { background-color: var(--blue); color: var(--white); }
+
+.primary-btn4 { background-color: var(--white); color: var(--black); border: 1px solid var(--gray-3); padding: 1rem 2.4rem; font-size: 1rem; cursor: pointer; border-radius: 0;} 
+.primary-btn4:active { background-color: var(--gray-5);color: var(--white);border: 1px solid var(--gray-5);}  
 /* 커스텀 HR */
 .olive-hr { border: none; /* 기본 선 제거 */
 height: 2px; /* 선의 두께 설정 */
@@ -34,4 +36,27 @@ background-color: var(--light-olive); /* 선의 색상 설정 */ }
 input[type="radio"] { appearance: none; border: 2px solid var(--gray-2); width: 2rem; height: 2rem; border-radius: 50%; vertical-align: middle; margin-top: -5px; } 
 /* TODO: checked : 클릭 시 체크 */
 input[type="radio"]:checked { border: 2px solid var(--gray-5); background-color: var(--blue); background-clip: content-box; padding: 5px; } 
-label { display: inline-block; width: 13rem; } 
+label { display: inline-block; width: 13rem; }
+/* 회원, 비회원 버튼 태그 */
+.tabs .active {color: var(--black); border-bottom: 1px solid var(--black); } 
+.tab-btn { background-color: var(--white); color: var(--gray-3); border-left: 0; border-right: 0; border-top: 0; border-bottom: 1px solid var(--gray-3); width: 50%; padding: 1rem 2.4rem; font-size: 1rem; cursor: pointer; border-radius: 0; } 
+.tabs { display: flex; } 
+.tab-content {
+    display: none; /* 기본적으로 숨김 */
+    padding: 1rem 0;
+}
+.active {
+    display: block; /* active 클래스가 추가되면 보임 */
+}
+/* 아이디, 비번, 주문자명, 주문번호 인풋 태그 */
+#name, #email, #password, #order-number {appearance: none;
+    background-color: var(--grayscale-10);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--gray-3);
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+ }
+

@@ -31,7 +31,7 @@
 
  .logo { font-size: 1.2rem; flex-grow: 1; } 
  .menu { width: 7.5rem; flex-grow: 0;display: flex; gap: 0.5rem; } 
- .item img, .item a img { width: 1.1rem; }
+ .item img { width: 1.1rem; } 
  
  .fixed { position: fixed; top: 0; right: 0; width: 100%; } 
  #drop-down #menu > .sale, #shop-menu > .sale { color: red; } 
@@ -75,7 +75,7 @@ footer { font-weight: bold; padding: 5%; }
 .logo { font-size: 2rem; flex-grow: 0; } 
 
 .menu { padding-right: 1.4rem; width: 14rem; } 
-.item > img, .item a img { width: 2rem; }
+.item > img { width: 2rem; } 
 
 #drop-down li { padding: 1.5rem 0 0 2rem; } 
 #drop-down h3 { font-size: 1.7rem; } 

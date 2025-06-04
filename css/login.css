@@ -1,0 +1,31 @@
+/* 본문 */
+body { font-size: 0.9rem; } 
+.welcome { padding: 5%; text-align: center; } 
+.accent { font-weight: 600; } 
+.b-day-wrapper { display: flex; gap: 3px; } 
+.b-day { width: 33%; margin: 1.5rem 0; } 
+.b-day > img { max-width: 100%; } 
+.btn-wrapper { display: flex; gap:4% } 
+.primary-btn4 { width: 48%; padding: 0.5rem 0; font-size: 1rem; } 
+.primary-btn4 span { width: 1.4rem; display: inline-block; vertical-align: middle; margin-right: 2rem; } 
+.primary-btn4 span img { max-width: 100%; }
+#save-id{vertical-align: middle;margin-top: -2px;}
+.security> img {width: 1rem;display: inline-block;vertical-align: middle;margin-top: -2px;}
+.underline {text-decoration: underline;}
+.to-the-left {float: left;}
+.to-the-right {float: right; margin-bottom: 1rem;}
+.login-btn {width: 100%; margin-top: 0.7rem;}
+.tab-content > p {text-align: left;margin-top: 0.5rem;}
+#order-number{margin-bottom: 1rem;}
+
+/* TODO: 태블릿 */
+@media screen and (min-width: 768px) {
+  .welcome{width: 60%;margin: 0 auto;}
+  .olive-hr{margin: 0 auto;
+}
+} 
+/* TODO: pc */
+@media screen and (min-width: 1280px){
+ #page { width: 60%; }
+   .welcome{width: 75%;}
+ }
