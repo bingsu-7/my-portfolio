@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {width: 50px;}
+        body p {display: none;}
+        .active {background-color: blueviolet;display: block;}
+    </style>
+</head>
+<body>
+    <button class="btn active" data-tab="btn1" checked>버튼1</button>
+    <button class="btn" data-tab="btn2">버튼2</button>
+    <p class="content active" id="btn1">버튼에 따라서 내용이 바뀌어요.</p>
+    <p class="content" id="btn2">바뀌었죠?ㅎㅎ</p>
+    <script>
+        $(function() {
+            $("btn").click(function () {
+                $(".btn",".content").removeClass("active");
+                $(this).addClass("active");
+                $("#"+$(this).data("tab")).addClass("active");
+            });
+        });
+    </script>
+</body>
+</html>
