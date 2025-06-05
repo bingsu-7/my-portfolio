@@ -7,10 +7,3 @@ $(document).ready(function () {
     $("#"+$(this).data("tab")).addClass("active");
   });
 });
-$(document).ready(function () {
-    $(".tab-btn").click(function () {
-        console.log("클릭된 버튼: ", $(this));
-        console.log("data-tab 값: ", $(this).data("tab"));
-        console.log("선택된 콘텐츠 요소: ", $("#"+$(this).data("tab")));
-    })
-})

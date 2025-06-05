@@ -1,6 +1,5 @@
 /* 본문 */
-body { font-size: 0.9rem; } 
-.welcome { padding: 5%; text-align: center; } 
+.welcome { padding: 5%; text-align: center;font-size: 0.9rem;} 
 .accent { font-weight: 600; } 
 .b-day-wrapper { display: flex; gap: 3px; } 
 .b-day { width: 33%; margin: 1.5rem 0; } 
@@ -17,6 +16,7 @@ body { font-size: 0.9rem; }
 .login-btn {width: 100%; margin-top: 0.7rem;}
 .tab-content > p {text-align: left;margin-top: 0.5rem;}
 #order-number{margin-bottom: 1rem;}
+.primary-btn4 a {display: block;}
 
 /* TODO: 태블릿 */
 @media screen and (min-width: 768px) {

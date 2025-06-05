@@ -1,0 +1,19 @@
+/* 본문 */
+.join{padding: 5%; font-size: 0.9rem;line-height: 1.5;}
+.join p:nth-child(1){text-align: center;font-size: 1.2rem;}
+.join .to-the-left {float: left;}
+.join .to-the-right {float: right;}
+.agr-wrapper{width: 100%;}
+.agree, .agree2, .agree3-4 {display: none; margin-top: 1rem;}
+#agree,#agree2,#agree3,#agree4,#agree5{vertical-align: middle;margin-top: -2px;}
+#agreeAll{margin-top: 2rem;}
+.join .primary-btn4 {float: right;margin-top: 1.5rem;}
+/* TODO: 태블릿 */
+@media screen and (min-width: 768px) {
+  .olive-hr{margin: 0 auto;}
+} 
+/* TODO: pc */
+@media screen and (min-width: 1280px){
+ #page { width: 60%; }
+   .join {padding: 5% 1%;}
+ }
