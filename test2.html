@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>토글 예제</title>
+    <style>
+      .toggle-content {
+        display: none;
+        padding: 10px;
+        background: #f0f0f0;
+        margin-top: 5px;
+      }
+
+      .toggle-button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background: #ddd;
+        border: none;
+        text-align: left;
+        cursor: pointer;
+        margin-bottom: 5px;
+      }
+
+      .active + .toggle-content {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="toggle-button">토글 1</button>
+    <div class="toggle-content">내용 1입니다.</div>
+
+    <button class="toggle-button">토글 2</button>
+    <div class="toggle-content">내용 2입니다.</div>
+
+    <button class="toggle-button">토글 3</button>
+    <div class="toggle-content">내용 3입니다.</div>
+
+    <script>
+      const buttons = document.querySelectorAll(".toggle-button");
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // 먼저 모든 버튼에서 active 클래스 제거
+          buttons.forEach((btn) => btn.classList.remove("active"));
+
+          // 클릭한 버튼에만 active 클래스 추가
+          button.classList.add("active");
+        });
+      });
+    </script>
+  </body>
+</html>

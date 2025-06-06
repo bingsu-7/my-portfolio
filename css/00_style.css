@@ -24,8 +24,9 @@ a { text-decoration: none; color: var(--black);}
 .primary-btn3 { border: 1px solid var(--blue); background-color: var(--white); padding: 0.2rem 0.5rem; border-radius: 5rem; font-weight: bold; font-size: 1rem; } 
 .primary-btn3:active { background-color: var(--blue); color: var(--white); }
 
-.primary-btn4 { background-color: var(--white); color: var(--black); border: 1px solid var(--gray-3); padding: 1rem 2.4rem; font-size: 1rem; cursor: pointer; border-radius: 0;} 
-.primary-btn4:active { background-color: var(--gray-5);color: var(--white);border: 1px solid var(--gray-5);}  
+/* primary-btn4 a태그로 만듦 */
+.primary-btn4{border: 1px solid var(--gray-3);display: block;text-align: center;}
+.primary-btn4:active{background-color: var(--gray-5);color: var(--white);border: 1px solid var(--gray-5);}
 /* 커스텀 HR */
 .olive-hr { border: none; /* 기본 선 제거 */
 height: 2px; /* 선의 두께 설정 */
