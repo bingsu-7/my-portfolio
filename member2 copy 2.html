@@ -15,14 +15,18 @@
   </head>
   <body>
     <div id="page">
-        <div class="search-input">
+       <div class="search-input">
         <div class="pos-input">
           <span class="close2">✕</span
-          ><label for="" class="s-label">
-            <input type="search" class="s-input" />
-            <div class="s-img">
-              <img src="./icon/search7px.png" alt="검색" /></div
-          ></label>
+          ><label for="" class="s-label"
+            ><div class="input-wrap">
+              <input type="text" class="s-input" /><span class="erase"
+                >지우기</span
+              >
+             </div
+          > <div class="s-img"
+                ><img src="./icon/search7px.png" alt="검색"
+              /></div></label>
         </div>
       </div>
       <!-- fab -->
@@ -77,16 +81,14 @@
           </ul>
         </div>
         <div class="logo">
-          <h3><a href="./index.html">MILOSOME</a></h3>
+          <h3><a href="index.html">MILOSOME</a></h3>
         </div>
         <ul class="menu">
           <li class="item search">
             <img src="icon/search7px.png" alt="검색" />
           </li>
           <li class="item">
-            <a href="/login.html"
-              ><img src="icon/account7px.png" alt="계정"
-            /></a>
+            <img src="icon/account7px.png" alt="계정" />
           </li>
           <li class="item">
             <img src="icon/like7px.png" alt="위시리스트" />
@@ -129,7 +131,9 @@
             <div><h4>Review</h4></div>
           </li>
           <li><h3 class="about-login">About</h3></li>
-          <li><h3>Login</h3></li>
+          <li>
+            <a href="login.html"><h3>Login</h3></a>
+          </li>
           <li><h3>Account</h3></li>
         </ul>
       </nav>

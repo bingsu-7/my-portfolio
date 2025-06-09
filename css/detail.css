@@ -25,9 +25,9 @@
 .btn-wrapper2 { display: none; /* 초기 상태: 숨김 */ } 
 .fixed-bottom { position: fixed; bottom: 0; right: 0; left: 0; width: 90%; margin: 0 auto; } 
 
-input[type="text"] { width: 1rem; height: 1.5rem; background-color: var(--gray-1); border-top: 1px solid var(--gray-1); border-left: 1px solid var(--gray-1); border-right: 1px solid var(--gray-1); border-bottom: 1px solid var(--gray-4); text-align: center; } 
+#quantity{ width: 1rem; height: 1.5rem; background-color: var(--gray-1); border-top: 1px solid var(--gray-1); border-left: 1px solid var(--gray-1); border-right: 1px solid var(--gray-1); border-bottom: 1px solid var(--gray-4); text-align: center; } 
  /* TODO: focus :클릭시 커서가 나타남 */
-input[type="text"]:focus { /* TODO; 포커스 시 기존의 외곽선이 사라짐 */
+#quantity[type="text"]:focus { /* TODO; 포커스 시 기존의 외곽선이 사라짐 */
  outline: none; border: 1px solid var(--blue); } 
 .number { width: 1rem; height: 1.5rem; margin: 0.2rem; text-align: center; } 
 

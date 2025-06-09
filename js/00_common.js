@@ -14,21 +14,17 @@ $(function () {
   });
 });
 
-$(function () {
-  $(".erase").click(function () {
-    $(".s-input").val("")
-  })
-})
-
 // fade 사용법: $("선택자").fadeToggle("slow");
 $(function () {
   $(".search").click(function () {
     // #btn 클릭하면 실행
     $(".search-input").fadeToggle(500);
     $(".s-input").focus();
+    $("body").css("overflow", "hidden"); // 스크롤 잠금
   });
   $(".close2").click(function () {
     $(".search-input").fadeOut(500);
+    $("body").css("overflow", "auto"); // 스크롤 해제
   });
 });
 

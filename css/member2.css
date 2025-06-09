@@ -3,7 +3,7 @@ section { font-size: 1rem; padding: 5%; line-height: 1.5;}
 .red { color: var(--red); }
 .pw-check, .pw-guide{display: none;}
 .pw-wrap{position: relative;}
-.pw-guide{position: absolute;left: 0;bottom: 9rem;z-index: 99;background-color: var(--white);border: 1px solid var(--gray-3);padding: 5px;}
+.pw-guide{position: absolute;left: 0;bottom: 9rem;z-index: 99;background-color: var(--white);border: 1px solid var(--gray-3);padding: 5px;box-shadow: var(--pw-guide);}
 .m-top {margin-top: 1.5rem;}
 .t-right{text-align: right;}
 .phone { border: 1px solid var(--gray-3);padding: 3px 5px; background-color: var(--white);} 
@@ -40,5 +40,5 @@ select { width: 5rem; padding: 3px 0; border: 2px solid rgb(184, 184, 184); bord
 /* TODO: pc */
 @media screen and (min-width: 1280px){
  #page { width: 60%; } 
- section { padding: 5% 1%; } 
+ section { padding: 5% 1%; width: 87%;margin: 0 auto;} 
  }
