@@ -29,7 +29,8 @@ label{ display: inline-block;}
 .primary-btn3 { border: 1px solid var(--blue); background-color: var(--white); padding: 0.2rem 0.5rem; border-radius: 5rem; font-weight: bold; font-size: 1rem; } 
 .primary-btn3:active { background-color: var(--blue); color: var(--white); }
 
-.primary-btn4 { border: 1px solid var(--gray-3); background-color: var(--white); padding: 0.2rem 0.5rem; font-size: 1rem; } 
+/* button태그랑 a태그 둘 다 적용 */
+.primary-btn4 { border: 1px solid var(--gray-3); background-color: var(--white); padding: 0.2rem 0.5rem; font-size: 1rem;display: inline-block;} 
 .primary-btn4:active { background-color: var(--gray-5); color: var(--white); border: 1px solid var(--gray-5);}
 
 /* 커스텀 HR */
