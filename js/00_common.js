@@ -18,7 +18,7 @@ $(function () {
 $(function () {
   $(".search").click(function () {
     // #btn 클릭하면 실행
-    $(".search-input").fadeToggle(500);
+    $(".search-input").fadeIn(500);
     $(".s-input").focus();
     $("body").css("overflow", "hidden"); // 스크롤 잠금
   });
