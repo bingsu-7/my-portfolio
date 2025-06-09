@@ -18,7 +18,8 @@
     });
   });
 
-
+// TODO : 03_AOS.js
+AOS.init();
 
 // TODO : Swiper.js 플러그인
 var swiper = new Swiper(".mySwiper", {

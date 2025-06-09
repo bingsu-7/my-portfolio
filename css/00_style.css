@@ -9,7 +9,8 @@
 /* body: 웹폰트 */
 body { font-family: "pretendard", "Roboto", sans-serif; } 
 li { list-style-type: none; } 
-a { text-decoration: none; color: var(--black);} 
+a { text-decoration: none; color: var(--black);}
+label{ display: inline-block;}
 .clear { clear: both; } 
 /* TODO : 커스텀 버튼 */
 .primary-btn { background-color: var(--white); color: var(--black); font-size: 0.9rem; border: 1px solid var(--light-olive); padding: 0.2rem 0.7rem; } 
@@ -24,15 +25,20 @@ a { text-decoration: none; color: var(--black);}
 .primary-btn3 { border: 1px solid var(--blue); background-color: var(--white); padding: 0.2rem 0.5rem; border-radius: 5rem; font-weight: bold; font-size: 1rem; } 
 .primary-btn3:active { background-color: var(--blue); color: var(--white); }
 
-/* primary-btn4 a태그로 만듦 */
-.primary-btn4{border: 1px solid var(--gray-3);display: block;text-align: center;}
-.primary-btn4:active{background-color: var(--gray-5);color: var(--white);border: 1px solid var(--gray-5);}
+.primary-btn4 { border: 1px solid var(--gray-3); background-color: var(--white); padding: 0.2rem 0.5rem; font-size: 1rem; } 
+.primary-btn4:active { background-color: var(--gray-5); color: var(--white); border: 1px solid var(--gray-5);}
+
 /* 커스텀 HR */
 .olive-hr { border: none; /* 기본 선 제거 */
 height: 2px; /* 선의 두께 설정 */
 background-color: var(--light-olive); /* 선의 색상 설정 */ } 
-.gray2-hr { border: none; height: 2px; background-color: var(--gray-2); margin: 0 auto; } 
-.gray4-hr { border: none; height: 2px; background-color: var(--gray-4); } 
+.gray2-hr { border: none; height: 2px; background-color: var(--gray-2); margin: 0 auto; }
+.gray4-hr { border: none; height: 2px; background-color: var(--gray-4); }
+/* 커스텀 radio */
+input[type="radio"] { appearance: none; border: 1px solid var(--gray-3); width: 1rem; height: 1rem; border-radius: 50%; vertical-align: middle; margin-top: -2px; } 
+/* TODO: checked : 클릭 시 체크 */
+input[type="radio"]:checked { border: 1px solid var(--gray-5); background-color: var(--gray-5); background-clip: content-box; padding: 3px; } 
+
 
 
 

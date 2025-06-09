@@ -121,7 +121,9 @@
             <div><h4>Review</h4></div>
           </li>
           <li><h3 class="about-login">About</h3></li>
-          <li><a href="login.html"><h3>Login</h3></a></li>
+          <li>
+            <a href="login.html"><h3>Login</h3></a>
+          </li>
           <li><h3>Account</h3></li>
         </ul>
       </nav>
@@ -144,16 +146,18 @@
           </div>
         </div>
         <div class="btn-wrapper">
-          <a class="primary-btn4" href="#">
-            <span><img src="icon/kakao_login.png" alt="카카오 로그인" /></span>카카오 로그인
-          </a>
-          <a class="primary-btn4" href="#">
-            <span><img src="icon/naver_login.png" alt="네이버 로그인" /></span>네이버 로그인
-          </a>
+          <button class="primary-btn4" href="#">
+            <span><img src="icon/kakao_login.png" alt="카카오 로그인" /></span
+            >카카오 로그인
+          </button>
+          <button class="primary-btn4" href="#">
+            <span><img src="icon/naver_login.png" alt="네이버 로그인" /></span
+            >네이버 로그인
+          </button>
         </div>
         <div class="tabs">
-          <button class="tab-btn active" data-tab="member">회원</button>
-          <button class="tab-btn" data-tab="non-member">비회원</button>
+          <button class="tab-btn active" data-tab="member" type="button">회원</button>
+          <button class="tab-btn" data-tab="non-member" type="button">비회원</button>
         </div>
         <div class="tab-content active" id="member">
           <input
@@ -169,20 +173,18 @@
             autocomplete="off"
           />
           <div class="to-the-left">
-            <input type="checkbox" id="save-id" /> 아이디 저장
+            <label><input type="checkbox" id="save-id" /> 아이디 저장</label>
             <span class="security"
-              ><img src="/icon/secure_access.png" alt="보안 접속" /> 보안
+              ><img src="icon/secure_access.png" alt="보안 접속" /> 보안
               접속</span
             >
           </div>
           <div class="to-the-right">
-            <span class="underline"><a href="">아이디 찾기</a></span>
-            <span class="underline"><a href="">비밀번호 찾기</a></span>
+            <span class="underline"><a href="#">아이디 찾기</a></span>
+            <span class="underline"><a href="#">비밀번호 찾기</a></span>
           </div>
-             <a class="primary-btn4 login-btn clear">로그인</a>
-          <a class="primary-btn4 login-btn" href="member.html">
-            회원가입
-          </a>
+          <button class="primary-btn4 login-btn clear">로그인</button>
+          <button class="primary-btn4 login-btn" onclick='location.href="member.html"'> 회원가입 </button>
         </div>
         <div class="tab-content" id="non-member">
           <input
@@ -197,10 +199,8 @@
             name="order-number"
             placeholder="주문번호"
           />
-          <a class="primary-btn4 login-btn clear">조회</a>
-          <a class="primary-btn4 login-btn" href="member.html">
-            회원가입
-          </a>
+          <button class="primary-btn4 login-btn clear">조회</button>
+          <button class="primary-btn4 login-btn" onclick='location.href="member.html"'> 회원가입 </button>
           <p>* 비회원의 경우, 주문 시 주문 번호로 주문 조회가 가능합니다.</p>
         </div>
       </section>

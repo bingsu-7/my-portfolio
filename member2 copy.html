@@ -1,0 +1,347 @@
+d<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MILOSOME</title>
+    <!-- TODO css 5개 -->
+    <!-- TODO : 공통 css -->
+    <link rel="stylesheet" href="./css/00_style.css" />
+    <!-- TODO : 머리말+꼬리말 css -->
+    <link rel="stylesheet" href="./css/00_common.css" />
+    <link rel="shortcut icon" href="./icon/favicon.png" type="image/x-icon" />
+    <!-- TODO: 본문 css -->
+    <link rel="stylesheet" href="./css/member2.css" />
+  </head>
+  <body>
+    <div id="page">
+      <!-- fab -->
+      <div class="fab-wrapper">
+        <div class="fab">
+          <a href="#up"><img src="icon/fab_up7px.png" alt="위로 이동" /></a>
+        </div>
+        <div class="fab2">
+          <a href="#down"
+            ><img src="icon/fab_down7px.png" alt="아래로 이동"
+          /></a>
+        </div>
+      </div>
+      <!-- 머리말 -->
+      <header class="top-menu" id="up">
+        <span>&nbsp;&nbsp;&nbsp;</span
+        ><span class="app-down">app download <b>10% </b>coupon</span
+        ><span
+          ><img class="close" src="icon/close_white7px.png" alt="닫기"
+        /></span>
+      </header>
+      <nav class="gnb">
+        <div class="pc-menu-wrapper">
+          <ul class="pc-menu">
+            <li id="shop">
+              Shop
+              <ul id="shop-menu">
+                <li><h4>Best</h4></li>
+                <li><h4>New</h4></li>
+                <li class="sale"><h4>Sale</h4></li>
+                <li><h4>All</h4></li>
+                <li><h4>Outer</h4></li>
+                <li>
+                  <a href="Top.html"><h4>Top</h4></a>
+                </li>
+                <li><h4>Bottom</h4></li>
+                <li><h4>Dress</h4></li>
+                <li><h4>Acc</h4></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="pc-menu">
+            <li id="commu">
+              Community
+              <ul id="commu-menu">
+                <li><h4>Notice</h4></li>
+                <li><h4>FAQ</h4></li>
+                <li><h4>Q&A</h4></li>
+                <li><h4>Review</h4></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="logo">
+          <h3><a href="index.html">MILOSOME</a></h3>
+        </div>
+        <ul class="menu">
+          <li class="item">
+            <img src="icon/search7px.png" alt="검색" />
+          </li>
+          <li class="item">
+            <img src="icon/account7px.png" alt="계정" />
+          </li>
+          <li class="item">
+            <img src="icon/like7px.png" alt="위시리스트" />
+          </li>
+          <li class="item">
+            <img src="icon/cart7px.png" alt="장바구니" />
+          </li>
+          <li class="item">
+            <img
+              class="hamburger"
+              src="icon/hamburger_menu7px.png"
+              alt="햄버거메뉴"
+            />
+          </li>
+        </ul>
+        <ul id="drop-down">
+          <li class="shop">
+            <h3>Shop<span> ∨</span></h3>
+          </li>
+          <li id="menu" class="shop-menu">
+            <div><h4>Best</h4></div>
+            <div><h4>New</h4></div>
+            <div class="sale"><h4>Sale</h4></div>
+            <div><h4>All</h4></div>
+            <div><h4>Outer</h4></div>
+            <div>
+              <a href="Top.html"><h4>Top</h4></a>
+            </div>
+            <div><h4>Bottom</h4></div>
+            <div><h4>Dress</h4></div>
+            <div><h4>Acc</h4></div>
+          </li>
+          <li id="community">
+            <h3>Community<span> ∨</span></h3>
+          </li>
+          <li id="menu2">
+            <div><h4>Notice</h4></div>
+            <div><h4>FAQ</h4></div>
+            <div><h4>Q&A</h4></div>
+            <div><h4>Review</h4></div>
+          </li>
+          <li><h3 class="about-login">About</h3></li>
+          <li>
+            <a href="login.html"><h3>Login</h3></a>
+          </li>
+          <li><h3>Account</h3></li>
+        </ul>
+      </nav>
+      <!-- TODO 본문 -->
+      <section>
+        <p>회원 구분<span class="red"> *</span></p>
+        <form action="/signup" method="post">
+          <label data-tab="type1" class="type active"
+            ><input type="radio" name="memberType" checked /> 개인 회원</label
+          >
+          <label data-tab="type2" class="type"
+            ><input type="radio" name="memberType" /> 사업자 회원</label
+          >
+          <label data-tab="type3" class="type"
+            ><input type="radio" name="memberType" /> 외국인(foreigner)
+            회원</label
+          >
+          <div class="content active" id="type1">
+            <div class="m-top">
+              <label
+                ><input type="radio" name="mobile-authentic" checked /> 휴대폰
+                인증</label
+              >
+            </div>
+            <button class="phone">
+              <span><img src="icon/cellphone7px.png" alt="휴대폰" /></span>
+              휴대폰 인증
+            </button>
+            <p>본인 명의 휴대폰으로 본인인증을 진행합니다.</p>
+            <p class="m-top t-right"><span class="red">*</span> 필수입력사항</p>
+            <label for="email" class="m-top">이메일<span class="red"> *</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" />
+            <p class="gray-3">로그인 아이디로 사용할 이메일을 입력해 주세요.</p>
+            <label for="password" class="m-top">비밀번호<span class="red"> *</span></label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              autocomplete="off"
+            />
+            <p class="gray-3">
+              (영문 대소문자/숫자/특수문자 중 3가지 이상 조합, 8자~16자)
+            </p>
+            <label for="password-check" class="m-top"
+              >비밀번호 확인<span class="red"> *</span></label
+            >
+            <input
+              type="password"
+              id="password-check"
+              name="password-check"
+              autocomplete="off"
+            />
+            <label for="username" class="m-top">이름<span class="red"> *</span></label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              autocomplete="username"
+            />
+            <label for="phone1" class="m-top">일반전화</label>
+            <div>
+              <select id="phone1" name="phone1">
+                <option value="02">02</option>
+                <option value="031">031</option>
+                <option value="032">032</option>
+                <option value="033">033</option>
+                <option value="041">041</option>
+                <option value="042">042</option>
+                <option value="043">043</option>
+                <option value="044">044</option>
+                <option value="051">051</option>
+                <option value="052">052</option>
+                <option value="053">053</option>
+                <option value="054">054</option>
+                <option value="055">055</option>
+                <option value="061">061</option>
+                <option value="062">062</option>
+                <option value="063">063</option>
+                <option value="064">064</option>
+                <option value="0502">0502</option>
+                <option value="0503">0503</option>
+                <option value="0504">0504</option>
+                <option value="0505">0505</option>
+                <option value="0506">0506</option>
+                <option value="0507">0507</option>
+                <option value="070">070</option>
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+                <option value="017">017</option>
+                <option value="018">018</option>
+                <option value="019">019</option>
+                <option value="0508">0508</option>
+              </select>
+              <span>-</span>
+              <input type="text" id="phone2" name="phone2" maxlength="4" />
+              <span>-</span>
+              <input type="text" id="phone3" name="phone3" maxlength="4" />
+            </div>
+            <label for="mobile1" class="m-top">휴대전화<span class="red"> *</span></label>
+            <div>
+              <select id="mobile1" name="mobile1">
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="016">016</option>
+                <option value="017">017</option>
+                <option value="018">018</option>
+                <option value="019">019</option>
+              </select>
+              <span>-</span>
+              <input type="text" id="mobile2" name="mobile2" maxlength="4" />
+              <span>-</span>
+              <input type="text" id="mobile3" name="mobile3" maxlength="4" />
+            </div>
+            <label for="postcode" class="m-top">주소</label>
+            <div class="addr">
+              <input
+                type="text"
+                id="postcode"
+                name="address1"
+                placeholder="우편번호"
+              />
+              <button class="phone" onclick="execDaumPostcode()">주소 검색</button>
+            </div>
+            <input
+              type="text"
+              id="address"
+              name="address2"
+              placeholder="기본 주소"
+              autocomplete="address-line1"
+            />
+            <input
+              type="text"
+              id="detailAddress"
+              name="address3"
+              placeholder="나머지 주소(선택)"
+            />
+            <p>생년월일</p>
+            <label><input type="radio" name="birth1" checked /> 양력</label>
+            <label><input type="radio" name="birth1" /> 음력</label>
+            <div>
+              <input type="text" id="birth2" name="birth2" /> 년
+              <input type="text" id="birth3" name="birth3" /> 월
+              <input type="text" id="birth4" name="birth4" /> 일
+            </div>
+            <p>입력 시 생일 쿠폰 10,000원을 드립니다.</p>
+            <button class="primary-btn4" type="submit">가입하기</button>
+          </div>
+          <div class="content" id="type2">
+            <p>sdfsdfsfd</p>
+          </div>
+          <div class="content" id="type3">
+            <p>rtpotyh</p>
+          </div>
+        </form>
+      </section>
+      <!-- TODO 꼬리말 -->
+      <hr class="olive-hr" />
+      <footer>
+        <div class="footer-left">
+          <p class="cs">
+            <span class="cs1">customer services</span><span> ∨</span>
+          </p>
+          <ul id="cs-info">
+            <li>T.<a href="tel:1600-0000"> 1600-0000</a></li>
+            <li>MON-FRI : 10AM – 6PM</li>
+            <li>LUNCH : 12PM – 1PM</li>
+            <li>SAT.SUN.HOLIDAY OFF</li>
+            <br />
+            <li>KB국민은행 12345678987654 김소영</li>
+          </ul>
+          <ul class="company-name">
+            <li>상호: (주)밀로썸 (MILOSOME) 대표자 : 김소영</li>
+            <li>사업자등록번호 : 1234567890</li>
+            <li>통신판매업 : 2025-서울용산-0000</li>
+            <address><li>주소 : 서울특별시 용산구 한남동</li></address>
+            <br />
+            <li>Copyright ⓒ (주)밀로썸 All Rights Reserved.</li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <ul class="about">
+            <li>ABOUT</li>
+            <li>NOTICE</li>
+            <li><a href="login.html">MEMBER</a></li>
+            <li>PRIVACY</li>
+            <li class="home"><a href="index.html">HOME</a></li>
+          </ul>
+          <ul class="user-guide">
+            <li>FAQ</li>
+            <li>Q&A</li>
+            <li>이용안내</li>
+            <li>이용약관</li>
+            <br />
+            <li class="sns">
+              <a class="sns-url" href="#none" title="밀로썸 인스타그램"
+                ><img src="icon/instagram7px.png" alt="인스타그램"
+              /></a>
+            </li>
+            <li class="sns">
+              <a class="sns-url" href="#none" title="밀로썸 유튜브"
+                ><img src="icon/youtube7px.png" alt="유튜브"
+              /></a>
+            </li>
+            <li class="sns">
+              <a class="sns-url" href="#none" title="밀로썸 카톡 채널"
+                ><img src="icon/kakaotalk7px.png" alt="카카오톡" id="down"
+              /></a>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+      </footer>
+    </div>
+    <!-- TODO js -->
+    <!-- TODO : jquery cdn(인터넷주소) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/00_common.js"></script>
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+
+    <!-- TODO : 나의 js -->
+    <script src="./js/member2.js"></script>
+  </body>
+</html>

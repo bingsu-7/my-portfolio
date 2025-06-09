@@ -10,8 +10,6 @@
 .join .primary-btn4 {float: right;margin-top: 1.5rem;}
 .primary-btn4 {padding: 0.7rem 1rem; width: 7rem;margin-top: 1rem;float: right;}
 
-
-
 /* TODO: 태블릿 */
 @media screen and (min-width: 768px) {
   .olive-hr{margin: 0 auto;}
