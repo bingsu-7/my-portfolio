@@ -17,14 +17,34 @@ $(function () {
 // fade 사용법: $("선택자").fadeToggle("slow");
 $(function () {
   $(".search").click(function () {
-    // #btn 클릭하면 실행
+    // .search 클릭하면 실행
     $(".search-input").fadeIn(500);
     $(".s-input").focus();
+        $(".search-input").addClass("fixed");
+
+
   });
   $(".close2").click(function () {
     $(".search-input").fadeOut(500);
+            $(".search-input").removeClass("fixed");
+
   });
 });
+
+// $(function () {
+//   $(window).scroll(function () {
+//     // 웹브라우저가 스크롤되면
+//     let b = $(window).scrollTop(); // 스크롤바 y좌표
+//     if (b >= 24) {
+//       // 30: top 의 세로크기(y좌표가 같음)
+//       // search를 고정: fixed 클래스
+//       $(".s-input").addClass("fixed2");
+//     } else {
+//       // gnb 메뉴를 품: 클래스 제거
+//       $(".s-input").removeClass("fixed2");
+//     }
+//   });
+// });
 
 // 햄버거 메뉴 클릭 시 닫기로 바뀌고 메뉴 보임
 $(function () {
