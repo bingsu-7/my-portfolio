@@ -1,3 +1,9 @@
+document.querySelector(".close3")
+        .addEventListener("click",function () {
+            // TODO 바닐라 클릭 기능
+            // #popup 안보이기
+            document.querySelector(".sale-popup").style.display="none";
+        })
 // 좋아요 클릭 시 하트 채워짐
   $(function () {
     $(".new-things > .product > .like1").click(function () {
@@ -17,9 +23,6 @@
       }
     });
   });
-
-// TODO : 03_AOS.js
-AOS.init();
 
 // TODO : Swiper.js 플러그인
 var swiper = new Swiper(".mySwiper", {

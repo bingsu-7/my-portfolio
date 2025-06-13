@@ -11,21 +11,19 @@ section { font-size: 1rem; padding: 5%; line-height: 1.5;}
 .phone > span > img { max-width: 100%; vertical-align: middle; margin-top: -2px; }
 /* .addr{ padding: 3px 5px;}  */
 #nation{width: 100%;}
-#email,#email2,#email3,#password,#password2,#password3,#pw-check,#pw-check2,#pw-check3,
-#username,#username2,#username3,#company-name,#bizNumber,
-#phone2,#phone2-2,#phone2-3,#phone3,#phone3-2,#phone3-3,#mobile2,#mobile2-2,#mobile2-3,#mobile3,#mobile3-2,#mobile3-3,#passport-no
+#email,#email3,#password,#password3,#pw-check,#pw-check3,
+#username,#username3,#company-name,
+#phone2,#phone2-3,#phone3,#phone3-3,#mobile2,#mobile2-3,#mobile3,#mobile3-3,#passport-no
 {appearance: none; border-left: 0; border-right: 0; border-top: 0; border-bottom: 1px solid var(--gray-3); font-size: 1rem; width: 100%; } 
 .gray-3 { color: var(--gray-3); font-size: 0.9rem; } 
 select { width: 5rem; padding: 3px 0; border: 2px solid rgb(184, 184, 184); border-radius: 0; font-size: 1rem; } 
-#phone2,#phone2-2,#phone2-3,#phone3,#phone3-2,#phone3-3,
-#mobile2,#mobile2-2,#mobile2-3,#mobile3,#mobile3-2,#mobile3-3 { width: 20%; } 
-#postcode,#postcode2,#postcode3,#address,#address2,
-#address3,#detailAddress,#detailAddress2,#detailAddress3,
-#birth2,#birth2-2,#birth2-3,#birth3,#birth3-2,#birth3-3,#birth4,#birth4-2,#birth4-3
+#phone2,#phone2-3,#phone3,#phone3-3,#mobile2,#mobile2-3,#mobile3,#mobile3-3 { width: 20%; } 
+#postcode,#postcode3,#address,#address3,#detailAddress,#detailAddress3,
+#birth2,#birth2-3,#birth3,#birth3-3,#birth4,#birth4-3
 { appearance: none; border: 1px solid var(--gray-3); width: 9rem; font-size: 1rem; padding: 3px; } 
-#address,#address2,#address3,#detailAddress,#detailAddress2,#detailAddress3 { width: 100%; }
-#address,#address2,#address3 {margin: 1rem 0;}
-#birth2,#birth2-2,#birth2-3,#birth3,#birth3-2,#birth3-3,#birth4,#birth4-2,#birth4-3 { width: 25%; }
+#address,#address3,#detailAddress,#detailAddress3 { width: 100%; }
+#address,#address3 {margin: 1rem 0;}
+#birth2,#birth2-3,#birth3,#birth3-3,#birth4,#birth4-3 { width: 25%; }
 .m-right{margin-right: 1rem;}
 #passport-no{width: 50%;}
 .primary-btn4{width: 100%;padding: 1rem 0; }

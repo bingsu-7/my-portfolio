@@ -43,7 +43,8 @@
  .item img, .item a img { width: 1.1rem; }
  
  .fixed { position: fixed; top: 0; right: 0; width: 100%;} 
- #drop-down #menu > .sale, #shop-menu > .sale { color: red; } 
+ #drop-down #menu > .sale, #shop-menu > .sale, .sale-text > p > .sale
+ { color: red; } 
  #drop-down #menu, #drop-down #menu2 { display: none; } 
  #drop-down { display: none; position: fixed; top: 0; /* 네비게이션 아래에 배치 */
  left: 0; width: 81%; background-color: white; height: 100vh; z-index: 999; } 
