@@ -89,7 +89,7 @@ html,body { height: 100%; }
 .pageno li { display: inline-block; text-align: center; } 
 .pageno a { display: block; width: 1rem; color: var(--gray-3); } 
 /* TODO 페이지번호 선택: .active */
-.pageno .active { color: var(--white); background-color: var(--light-olive); border-radius: 5rem; } 
+.pageno .active { color: var(--gray-5);} 
 .container2 { margin: 5%; } 
 .qna_1 > p, .qna_2 > p { line-height: 3; } 
 

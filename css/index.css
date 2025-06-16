@@ -12,7 +12,8 @@ body{font-size: 1rem;}
 .sale-popup{width: 20rem;position: fixed;left: 10%;top: 10%;z-index: 9;}
 .sale-popup img {max-width: 100%;}
 .close3{position: absolute;right: 0;top: 0;padding: 0 3px;cursor: pointer;}
-.sale-text{display: flex;gap: 1rem; background-color: white;width: 14.5rem;position: absolute;bottom: 20%;left: 2.5rem;padding: 1rem 5px;}
+.sale-text{background-color: white;width: 14.5rem;position: absolute;bottom: 20%;left: 2.5rem;
+    padding: 4px;line-height: 1.8;text-align: center;}
 
 .container { margin: 5% 0; text-align: center; } 
 
@@ -38,7 +39,7 @@ p { font-weight: 400; }
 .brand-message > .primary-btn { margin-top: 0.3rem; font-weight: 500; } 
 
 .popup-store { background-image: url("../img/popupstore_banner_1080_720.jpg"); width: 100%; height: 45vh; background-position: center; background-repeat: no-repeat; background-size: contain; position: relative; } 
-.popup-store > .primary-btn { width: 6rem; position: absolute; left: 50%; top: 55%; transform: translateX(-50%); border-radius: 3rem; padding: 0; width: 4.3rem; } 
+.popup-store > .primary-btn5 { width: 4.5rem; position: absolute; left: 50%; top: 55%; transform: translateX(-50%);} 
 /* TODO: 태블릿 */
 @media screen and (min-width: 768px){
 .main { background-image: url(../img/main_pc_768_589.jpg);height: 70vh;} 

@@ -294,9 +294,9 @@
             >
             <label><input type="radio" name="birth1" /> 음력</label>
             <div>
-              <input type="text" id="birth2" name="birth2" /> 년
-              <input type="text" id="birth3" name="birth3" class="m-left" /> 월
-              <input type="text" id="birth4" name="birth4" class="m-left" /> 일
+              <input type="text" id="birth2" name="birth2" maxlength="4"/> 년
+              <input type="text" id="birth3" name="birth3" class="m-left" maxlength="2"/> 월
+              <input type="text" id="birth4" name="birth4" class="m-left" maxlength="2"/> 일
             </div>
             <p>입력 시 생일 쿠폰 10,000원을 드립니다.</p>
             <button class="primary-btn4 m-top" type="button">가입하기</button>
@@ -711,10 +711,10 @@
             >
             <label><input type="radio" name="birth1-3" /> 음력</label>
             <div>
-              <input type="text" id="birth2-3" name="birth2-3" /> 년
-              <input type="text" id="birth3-3" name="birth3-3" class="m-left" />
+              <input type="text" id="birth2-3" name="birth2-3" maxlength="4"/> 년
+              <input type="text" id="birth3-3" name="birth3-3" class="m-left" maxlength="2"/>
               월
-              <input type="text" id="birth4-3" name="birth4-3" class="m-left" />
+              <input type="text" id="birth4-3" name="birth4-3" class="m-left" maxlength="2"/>
               일
             </div>
             <p>입력 시 생일 쿠폰 10,000원을 드립니다.</p>
@@ -785,7 +785,6 @@
     <!-- TODO : jquery cdn(인터넷주소) -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./js/00_common.js"></script>
-    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <!-- TODO : 나의 js -->
     <script src="./js/member2.js"></script>
   </body>

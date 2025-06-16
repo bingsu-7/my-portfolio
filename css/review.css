@@ -1,0 +1,31 @@
+/* 본문 */
+section { font-size: 1rem; padding: 5%; line-height: 1.5;}
+.commu-sort{display: flex;gap: 1rem;}
+/* a태그 인라인 요소라서 */
+.underline { position: relative; display: inline-block; } 
+.underline::after { content: ""; position: absolute; bottom: 0; left: 0; width: 0%; height: 2px; background-color: var(--black); transition: width 0.3s ease-in-out; } 
+.underline:hover::after { width: 100%; }
+.review-info{margin-left: 1rem;}
+.review-guide{display: none;margin-left: 1rem;}
+.m-top{margin-top: 1rem;}
+.review-img{width: 2.5rem;}
+.review-img img{max-width: 100%;vertical-align: middle;}
+.f-left{float: left;}
+.f-right{float: right;}
+.t-right{text-align: right;}
+.padding{padding: 5px;}
+.padding2{padding: 5px 0;}
+.gray3{border-top: 1px solid var(--gray-3);border-bottom: 1px solid var(--gray-3);font-size: 0.9rem;}
+.gray3-2{border-bottom: 1px solid var(--gray-3);font-size: 0.9rem;}
+.review li {height: 3.5rem;}
+.flex{display: flex;align-items: center;}
+/* TODO: 태블릿 */
+@media screen and (min-width: 768px) { 
+   
+
+} 
+/* TODO: pc */
+@media screen and (min-width: 1280px){
+ #page { width: 60%; } 
+
+ }

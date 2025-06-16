@@ -39,19 +39,7 @@ $(function () {
     }
   });
 });
-$(function () {
-  $("#pw-check2").on("input", function () {
-    // 입력값 변경 시 검사
-    let c = $("#password2").val(),
-      d = $(this).val();
 
-    if (c !== d) {
-      $(".pw-check").css("display", "block"); // 비밀번호 불일치 시 메시지 표시
-    } else {
-      $(".pw-check").css("display", "none"); // 비밀번호 일치 시 메시지 숨김
-    }
-  });
-});
 $(function () {
   $("#pw-check3").on("input", function () {
     // 입력값 변경 시 검사
@@ -67,7 +55,7 @@ $(function () {
 });
 // 비밀번호 focus 시 조건 알려줌
 $(function () {
-  $("#password,#password2,#password3")
+  $("#password,#password3")
     .focus(function () {
       $(".pw-guide").show();
     })
