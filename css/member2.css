@@ -20,10 +20,10 @@ select { width: 5rem; padding: 3px 0; border: 2px solid rgb(184, 184, 184); bord
 #phone2,#phone2-3,#phone3,#phone3-3,#mobile2,#mobile2-3,#mobile3,#mobile3-3 { width: 20%; } 
 #postcode,#postcode3,#address,#address3,#detailAddress,#detailAddress3,
 #birth2,#birth2-3,#birth3,#birth3-3,#birth4,#birth4-3
-{ appearance: none; border: 1px solid var(--gray-3); width: 9rem; font-size: 1rem; padding: 3px; } 
-#address,#address3,#detailAddress,#detailAddress3 { width: 100%; }
+{ appearance: none; border: 1px solid var(--gray-3); width: 9rem; font-size: 1rem; padding: 3px;} 
+#address,#address3,#detailAddress,#detailAddress3 { width: 100%;}
 #address,#address3 {margin: 1rem 0;}
-#birth2,#birth2-3,#birth3,#birth3-3,#birth4,#birth4-3 { width: 25%; }
+#birth2,#birth2-3,#birth3,#birth3-3,#birth4,#birth4-3 { width: 25%;}
 .m-right{margin-right: 1rem;}
 #passport-no{width: 50%;}
 .primary-btn4{width: 100%;padding: 1rem 0; }

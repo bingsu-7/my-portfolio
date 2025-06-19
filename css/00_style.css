@@ -40,9 +40,9 @@ label{ display: inline-block;}
 /* 커스텀 HR */
 .olive-hr { border: none; /* 기본 선 제거 */
 height: 2px; /* 선의 두께 설정 */
-background-color: var(--light-olive); /* 선의 색상 설정 */ } 
+background-color: var(--light-olive); /* 선의 색상 설정 */ }
 .gray2-hr { border: none; height: 2px; background-color: var(--gray-2); margin: 0 auto; }
-.gray4-hr { border: none; height: 2px; background-color: var(--gray-4); }
+.gray4-hr { border: none; height: 2px; background-color: var(--gray-4);}
 /* 커스텀 radio */
 input[type="radio"] { appearance: none; border: 1px solid var(--gray-3); width: 1rem; height: 1rem; border-radius: 50%; vertical-align: middle; margin-top: -2px; } 
 /* TODO: checked : 클릭 시 체크 */
