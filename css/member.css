@@ -16,6 +16,5 @@
 } 
 /* TODO: pc */
 @media screen and (min-width: 1280px){
- #page { width: 60%; }
-   .join {padding: 5% 1%;}
+   .join {padding: 5%;}
  }

@@ -123,18 +123,18 @@ html,body { height: 100%; }
  }
 /* TODO: pc */
 @media screen and (min-width: 1280px){
- #page { width: 60%; } 
  .coupon { padding-left: 1.5rem; } 
+.branding_message > img { width: 100%; } 
 
 
  .product-img { padding-left: 0; width: 47%; } 
  .product-info { width: 47%; } 
-  .container3 { width: 100%; } 
 
-#page .container .gray2-hr { width: 100%; } 
-.branding_message > img { width: 100%; } 
+#page .container .gray2-hr { width: 100%;}
+.container { margin: 0 5%; }
+.container3 { margin: 3% auto;width: 100%;}
+.container2 { margin: 2% auto; } 
 .imgs > img { width: 100%; } 
  .user_guide_bottom > img { width: 100%; } 
-#page .gray2-hr { width: 77%; } 
-.con4 { width: 75%; } 
+#page .gray2-hr, .con4 { width: 71%; }  
  }

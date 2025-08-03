@@ -40,8 +40,7 @@ select { width: 47%; padding: 3px 0; border: 2px solid var(--gray-3); border-rad
 }
 /* TODO: pc */
 @media screen and (min-width: 1280px){
- #page { width: 60%; }
- section {padding: 5% 1%;} 
+ section {padding: 5%;} 
  .write { width: 15%;float: right;}
 select { width: 15%;padding: 4px 0;} 
 .select-wrap {justify-content: left; gap: 5px; }

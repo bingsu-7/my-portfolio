@@ -15,7 +15,7 @@ body{font-size: 1rem;}
 .sale-text{background-color: white;width: 14.5rem;position: absolute;bottom: 20%;left: 2.5rem;
     padding: 4px;line-height: 1.8;text-align: center;}
 
-.container { margin: 5% 0; text-align: center; } 
+.container {text-align: center; } 
 
 .new-things > li:nth-of-type(2n+1) { margin-right: 6%; } 
 .best-things > li:nth-of-type(2n+1) { margin-right: 6%; } 
@@ -69,13 +69,14 @@ p { font-weight: 400; }
 
 /* TODO: pc */
 @media screen and (min-width: 1280px){
- #page { width: 60%; } 
-.main { background-image: url(../img/main_pc_768_589.jpg);height: 90vh;} 
-.main2 { background-image: url(../img/main2_pc_768_589.jpg);height: 90vh;} 
+section { width: 60%; margin: 0 auto;} 
+.main { background-image: url(../img/main_pc_768_589.jpg);height: 100%;} 
+.main2 { background-image: url(../img/main2_pc_768_589.jpg);height: 100%;} 
+.swiper-slide{height: 65rem;}
+
 /* 본문 */
 .sale-popup{width: 30rem;left: 32%;top: 12%;}
 .sale-text{left: 3.8rem;}
-
 .container { padding: 5% 0; }
 .product > img { width: 100%; }
 img{width: 100%;}

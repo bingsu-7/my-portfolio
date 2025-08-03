@@ -37,6 +37,8 @@ select { width: 5rem; padding: 3px 0; border: 2px solid rgb(184, 184, 184); bord
 } 
 /* TODO: pc */
 @media screen and (min-width: 1280px){
- #page { width: 60%; } 
- section { padding: 5% 1%; width: 87%;margin: 0 auto;} 
+ section { padding: 5% 1%; width: 87%;margin: 0 auto;}
+ #phone2,#phone2-3,#phone3,#phone3-3,#mobile2,#mobile2-3,#mobile3,#mobile3-3,#passport-no
+{width: 10%; }
+#birth2,#birth2-3,#birth3,#birth3-3,#birth4,#birth4-3 { width: 12%;}
  }

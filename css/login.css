@@ -48,7 +48,6 @@
 } 
 /* TODO: pc */
 @media screen and (min-width: 1280px){
- #page { width: 60%; }
-   .welcome{width: 75%;}
+   .welcome{width: 50%;}
    .primary-btn4 span {margin-right: 3rem; } 
  }
