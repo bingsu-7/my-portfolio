@@ -103,7 +103,6 @@ footer { padding-bottom: 2%; }
 
 /* TODO: pc */
 @media screen and (min-width: 1280px) { 
-.search-input {width: 60%;height: 10rem;background-color: var(--white); position: absolute;left: 20%;top: 0;z-index: 999999;}
     /* fab */
 .fab { bottom: 31.5%; } 
 .fab2 { bottom: 25.5%; } 
