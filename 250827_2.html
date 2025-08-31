@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/00_style.css" />
+    <link rel="stylesheet" href="test.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        /* background: #000; */
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 35vw;
+        height: 20vh;
+        margin: 5rem;
+      }
+
+      /* .swiper-wrapper{width: 90vw;} */
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: gray;
+        /* width: 30vw; */
+      }
+
+      .swiper-slide img {
+        width: 10vw;
+        height: 10vh;
+        max-width: 100%;
+        max-height: 100%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+      }
+  
+
+  
+
+      /* 왼쪽 버튼: 슬라이드 바깥으로 */
+      .swiper-button-prev {
+        left: 40px; /* 슬라이드 경계에서 40px 바깥 */
+      }
+
+      /* 오른쪽 버튼: 슬라이드 바깥으로 */
+      .swiper-button-next {
+        right: 40px; /* 슬라이드 경계에서 40px 바깥 */
+      }
+      
+      .swiper-wrapper-container {
+  position: relative;
+  display: inline-block; /* 슬라이더 크기에 맞게 */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="swiper-wrapper-container">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://picsum.photos/200/300​" alt="">슬라이드 1</div>
+      <div class="swiper-slide"><img src="https://picsum.photos/200/300​" alt="">슬라이드 2</div>
+      <div class="swiper-slide"><img src="https://picsum.photos/200/300​" alt="">슬라이드 3</div>
+      <div class="swiper-slide"><img src="https://picsum.photos/200/300​" alt="">슬라이드 4</div>
+    </div>
+  </div>
+  <!-- 버튼을 swiper 바깥에 배치 -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+    <!-- TODO : jquery cdn(인터넷주소) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        //   lazy: true,
+
+        loop: true, // 무한 루프
+        autoplay: {
+          delay: 3000, // 3초마다 자동 슬라이드
+          disableOnInteraction: false, // 유저 조작 후에도 자동재생 유지
+        },
+
+        slidesPerView: 2,
+
+        //   pagination: {
+        //     el: ".swiper-pagination",
+        //     clickable: true,
+        //   },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

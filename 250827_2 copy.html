@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/00_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        /* background: #000; */
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 35vw;
+        height: 40vh;
+        
+      }
+
+      /* .swiper-wrapper{width: 90vw;} */
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: gray;
+        /* width: 30vw; */
+      }
+
+      .swiper-slide img {
+        width: 10vw;
+        height: 10vh;
+        max-width: 100%;
+        max-height: 100%;
+        -ms-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        background-color: black;
+      }
+
+  
+
+      /* 왼쪽 버튼: 슬라이드 바깥으로 */
+      .swiper-button-prev {
+        left: -30px; /* 슬라이드 경계에서 40px 바깥 */
+      }
+
+      /* 오른쪽 버튼: 슬라이드 바깥으로 */
+      .swiper-button-next {
+        right: -30px; /* 슬라이드 경계에서 40px 바깥 */
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+      class="swiper mySwiper"
+    >
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-1.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-2.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-3.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-4.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-5.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-6.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-7.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-8.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            src="https://swiperjs.com/demos/images/nature-9.jpg"
+            loading="lazy"
+          />
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+      </div>
+    
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    <!-- TODO : jquery cdn(인터넷주소) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        //   lazy: true,
+
+        loop: true, // 무한 루프
+        autoplay: {
+          delay: 3000, // 3초마다 자동 슬라이드
+          disableOnInteraction: false, // 유저 조작 후에도 자동재생 유지
+        },
+
+        slidesPerView: 2,
+
+        //   pagination: {
+        //     el: ".swiper-pagination",
+        //     clickable: true,
+        //   },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
